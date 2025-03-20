@@ -1,0 +1,189 @@
+{
+    "company" : "Amazon",
+    "Ticker" : "AMZ",
+    "Created date" : "2024-04-13",
+    "Last updated" : "2024-04-13",
+    "Country of incorporation" : "United States",
+    "@Currency" : "$", 
+    "@Risk Free rate%" : 4.08,
+    "@Marginal Tax rate%" : 25,
+    "Industry" : "Retail (General)",
+    "Show values in" : "Billions",
+    "Financial details" : {
+        "Revenue" : [574785,513983],
+        "EBIT" : [36852,12248],
+        "Interest expense" : [3182,2367],
+        "Book value of equity" : [201875,146043],
+        "Book value of debt" : [161574,169938],
+        "Minority Interest" : [0,0],
+        "Cross holdings and other non-operating assets" : [2954,2815],
+        "Cash and Marketable Securities" : [86780,70026],
+        "Years since last 10K" : 0.75,
+        "Cash is trapped in forein country" : false,
+        "Trapped cash value calculation" : {
+            "Amount trapped in forein country" : 0,
+            "Forien tax rate%" : 0,
+            "@Trapped cash value" : 86780.00 
+        },
+        "R&D Capitalize" : true,
+        "R&D details" : {
+            "@Industry Amortisation year" : 3,
+            "R&D Expense Table" : [85622,73213,56052,42740],
+            "@EBIT Adj to R&D" : 28287,
+            "@--Tax Adj to R&D" : 7072
+        },
+        "Lease Capitalize" : false,
+        "Lease details" : {
+            "Lease Expense Table" : [287,235,194,151,98,605],
+            "@Years in 6th & beyond" : 3,
+            "@EBIT Adj to Lease" : 134.33 ,
+            "@--Tax Adj to Lease" : 33.58,
+            "@Interest Adj to Lease" : null,
+            "@Debt Adj to Lease" :  1285
+        },
+        "@Pre-tax cost of debt%" : 4.78,
+        "Pre tax CoD calculation" : {
+            "CoD estimation method" : "Synthetic rating",
+            "Synthetic method" : {
+                "Company Type" : "Large Cap and Safe",
+                "@Interest coverage ratio" : 11.58,
+                "@Company def: spread%" : 0.7,
+                "@Country def: spread%" : 0.0,
+                "@Pre tax CoD using synthetic method%" : 4.78
+            },
+            "Actual rating method" : {
+                "Moody/S&P Rating " : "A1/A+",
+                "@Pre tax CoD using actual rating%" : 4.78
+            }
+        },
+        "@EBIT TTM (Adj)" : 65139,
+        "@Debt TTM (Adj)" : 161574,
+        "@Cash TTM (Adj)" : 86780.00
+    },
+    "@Estimated value per share" : 103.79,
+    "Value per share calculation" : {
+        "Valuation Method" : "FCFF",
+        "FCFF calculation" : {
+            "@Cost of capital" : 8.6,
+            "CoC calculation" : {
+                "CoC estimation method" : "Detailed",
+                "Detailed method" : {
+                    "@Cost of debt%" : 3.59,
+                    "Average debt maturity" : 3,
+                    "BV of conv debt" : 0,
+                    "Interest on conv debt" : 0,
+                    "Conv debt maturity" : 0,
+                    "--Market value of conv" : 0,
+                    "@MV of debt": 149156,
+                    "@current share price" : 169,
+                    "Share outstanding" : 10492,
+                    "@MV of equity" : 1773148,
+                    "@levered beta" : 1.24,
+                    "beta calculation" : {
+                        "Industry to consider" : "US Business",
+                        "Multi industry" : true,
+                        "Industries " : ["Computers/Peripherals", "Electronics (General)", "Entertainment"],
+                        "Revenue for each industry" : [195010, 43000, 15000],
+                        "@Industry wise ev/sale" : [5.5117,2.177,3.0674],
+                        "@Industry wise ul-beta" : [1.1004,0.8772,0.8657],
+                        "@Unlevered beta" : 1.0743,
+                        "@levered beta using industry type" : 1.24
+                    },
+                    "@Equity Risk Premium%" : 4.90,
+                    "@Mature market ERP%" : 4.11,
+                    "ERP calculation" : {
+                        "ERP calculation method" : "Operating Region",
+                        "Operating regions/cuntries" : ["United States","China","Rest of the world"],
+                        "Revenue for each regions/cuntries" : [193636,500,31335],
+                        "@ERP calculated%" : 4.43
+                    },
+                    "@Cost of equity%" : 10.18,
+                    "Prefered share price": 70,
+                    "Number of PS" : 0,
+                    "Annual dividend per PS" : 5,
+                    "@CoC using detailed method%" : 9.67
+                },
+                "Industry avg method" : {
+                    "@Industry to consider" : "US Business",
+                    "@Multi industry" : true,
+                    "@Industries " : ["Computers/Peripherals", "Electronics (General)", "Entertainment"],
+                    "@Revenue for each industry" : [195010, 43000, 15000],
+                    "@Industry wise CoC%" : [8.79,7.54,7.46],
+                    "@CoC using industry avg method%" : 9.67
+                },
+                "Region avg method" : {
+                    "Grouping(US,Emerging,Global)" : "US",
+                    "Risk grouping(Decile, Quartile, Median, 3rd Quartile, 9th Decile)" : "Median",
+                    "@CoC using region risk grouping%" : 8.60
+                }
+            },
+            "@Present value" :  1160852.48,
+            "PV calculation" : {
+                "Revenue projection" : {
+                    "Revenue growth in 3 stages%" : [12,12,4.08],
+                    "@Industry RG (US,Global)%" : [18.06,0.96],
+                    "@Industry Global stat (1st,median,3rd)%" : [-7.74,2.54,11.1],
+                    "@Revenue growth tbl%" : [null,12.00,12.00,12.00,12.00,12.00,10.42,8.83,7.25,5.66,4.08,4.08],
+                    "@Revenue tbl" : [574785,643759.2,721010.3,807531.5,904435.3,1012967.5,1118478.2,1217262.2,1305489.4,1379432.3,1435713.2,1494290.3]
+                },
+                "EBIT projection" : {
+                    "@Current Operating Margin%" : 11.33,
+                    "OM next year and target%" : [11.33,14],
+                    "Year of convergence of OM" : 5, 
+                    "@Industry OM (US,Global)%" : [4.41,4.35],
+                    "@Industry OM Global stat (1st,median,3rd)%" : [-0.92,3.92,8.69],
+                    "@OM tbl" : [11.33,11.33,12.4,12.93,13.47,14,14,14,14,14,14,14],
+                    "@EBIT tbl" : [65139,72955.68,89402.79,104438.89,121796.25,141815.46,156586.96,170416.72,182768.52,193120.53,200999.85,209200.64]
+                },
+                "EBI projection" : {
+                    "Effective tax rate%" : 19,
+                    "@Marginal tax rate" : 25,
+                    "Terminal tax to be marginal tax" : true,
+                    "Losses carried forwarded" : 0,
+                    "@EBI tbl" : [52762.59,59094.1,72416.26,84595.5,98654.96,114870.52,124956.39,133947.54,141462.84,147157.84,150749.89,156900.48]
+                },
+                "Reinvestment projection" : {
+                    "Sales to Capital ratio 1-5,6-10" : [1.5,1.5],
+                    "Reinvestment lag (0-3)" : 1, 
+                    "@Industry SC ratio (US,Global)%" : [2.41,2.13],
+                    "@Industry SC ratio Global stat (1st,median,3rd)%" : [0.69,1.83,3.35],
+                    "@Reinvestment tbl" : [null,51500.74,57680.82,64602.52,72354.83,70340.47,65856,58818.11,49295.28,37520.56,39051.4,78162.88]
+                },
+                "@Free cashflow tbl" : [0,7593.36,14735.44,19992.98,26300.14,44530.05,59100.39,75129.43,92167.55,109637.28,111698.49,78737.6],
+                "PV of CF projection" : {
+                    "@Mature market ERP%" : 4.11,
+                    "RFR 10+ yr" : 4.08,
+                    "Cost of capital 10+ years is that of mature companies" : true,
+                    "@CoC 10+ yr" : 8.19,
+                    "@CoC tbl%" : [0,8.6,8.6,8.6,8.6,8.6,8.52,8.44,8.35,8.27,8.19,8.19],
+                    "@Cumulative discount Factor tbl" : [null,0.92,0.85,0.78,0.72,0.66,0.61,0.56,0.52,0.48,0.44,null],
+                    "@PV of CF tbl" : [0,6992,12494.1,15609.5,18907.7,29478.4,36052.8,42265.5,47853,52574.2,49507.9,null]
+                },
+                "@PV of terminal val" :  849117.42,
+                "@PV of CF" :  311735.07
+            }, 
+            "@Operating asset value" : 116085248,
+            "Operating Asset value calculation" : {
+                "Probability of failure%" : 0,
+                "Tie the proceeds in failure to" : "Fair value",
+                "Distress proceeds%" : 50,
+                "@Debt TTM (Adj)" :161574,
+                "@Proceeds if fails" : 580426.24
+            },
+            "@Equity value" :  1089012.48,
+            "@Option value" : 0,
+            "Option value calculation" : {
+                "Employee option outstanding" : false,
+                "outstanding option no." : 7.72,
+                "Average strike price" : 1.29,
+                "Average maturity" : 7,
+                "SD of stock price%" : 45,
+                "@current share price" : 169,
+                "@Share outstanding" :10492,
+                "@value per option" : 168.03
+            },
+            "@Common equity value" :  1089012.48,
+            "@Estimated value per share (FCFF)" : 103.79
+        }
+    }
+}
