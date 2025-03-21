@@ -8,6 +8,7 @@
     "Country of incorporation" : "United States",
     "@Currency" : "$",
     "Riskfree rate consideration" : "Local",
+    "10Y treasury yield%": 6.75,
     "@Risk Free rate%" : 4.08,
     "@Marginal Tax rate%" : 25,
     "Industry" : "Retail (General)",
