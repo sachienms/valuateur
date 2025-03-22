@@ -16,6 +16,7 @@
     "Financial details" : {
         "Revenue" : [574785,513983],
         "EBIT" : [36852,12248],
+        "Effective tax rate%" : 19,
         "Interest expense" : [3182,2367],
         "Book value of equity" : [201875,146043],
         "Book value of debt" : [161574,169938],
