@@ -39,8 +39,7 @@
         },
         "Lease Capitalize" : false,
         "Lease details" : {
-            "Lease Expense Table" : [287,235,194,151,98,605],
-            "@Years in 6th & beyond" : 3,
+            "Lease Expense Table" : [295,287,235,194,151,98,605],
             "@EBIT Adj to Lease" : 134.33 ,
             "@--Tax Adj to Lease" : 33.58,
             "@Interest Adj to Lease" : null,
