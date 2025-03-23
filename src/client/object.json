@@ -7,6 +7,7 @@
     "Last updated" : "2024-04-13",
     "Country of incorporation" : "United States",
     "@Currency" : "$",
+    "@Country spread%" : 0.0,
     "Riskfree rate consideration" : "Local",
     "10Y treasury yield%": 6.75,
     "@Risk Free rate%" : 4.08,
@@ -49,7 +50,7 @@
         "Pre tax CoD calculation" : {
             "CoD estimation method" : "Synthetic rating",
             "Synthetic method" : {
-                "Company Type" : "Large Cap and Safe",
+                "Company Type" : "large or safe",
                 "@Interest coverage ratio" : 11.58,
                 "@Company def: spread%" : 0.7,
                 "@Country def: spread%" : 0.0,
