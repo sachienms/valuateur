@@ -57,7 +57,7 @@
                 "@Pre tax CoD using synthetic method%" : 4.78
             },
             "Actual rating method" : {
-                "Moody/S&P Rating " : "A1/A+",
+                "Moody/S&P Rating" : "A1/A+",
                 "@Pre tax CoD using actual rating%" : 4.78
             }
         },
