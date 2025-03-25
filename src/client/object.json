@@ -9,6 +9,7 @@
     "Country of incorporation" : "United States",
     "@Currency" : "$",
     "@Country spread%" : 0.0,
+    "@Country multiplier" : 1,
     "Riskfree rate consideration" : "Local",
     "10Y treasury yield%": 6.75,
     "@Risk Free rate%" : 4.08,
