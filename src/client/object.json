@@ -5,20 +5,19 @@
     "Ticker" : "AMZ",
     "Created date" : "2024-04-13",
     "Last updated" : "2024-04-13",
-    "@Recalculation needed" : false,
     "Country of incorporation" : "United States",
-    "@Currency" : "$",
-    "@Country spread%" : 0.0,
+    "Show values in" : "Billions",
     "Riskfree rate consideration" : "Local",
     "10Y treasury yield%": 6.75,
+    "@Recalculation needed" : false,
+    "@Currency" : "$",
+    "@Country spread%" : 0.0,
     "@Risk Free rate%" : 4.08,
     "@Marginal Tax rate%" : 25,
     "Industry" : "Retail (General)",
-    "Show values in" : "Billions",
     "Financial details" : {
         "Revenue" : [574785,513983],
         "EBIT" : [36852,12248],
-        "--Effective tax rate%" : 19,
         "Interest expense" : [3182,2367],
         "Book value of equity" : [201875,146043],
         "Book value of debt" : [161574,169938],
@@ -34,16 +33,14 @@
         },
         "R&D Capitalize" : true,
         "R&D details" : {
-            "@Industry Amortisation year" : 3,
             "R&D Expense Table" : [85622,73213,56052,42740],
-            "@EBIT Adj to R&D" : 28287,
-            "@--Tax Adj to R&D" : 7072
+            "@Industry Amortisation year" : 3,
+            "@EBIT Adj to R&D" : 28287
         },
         "Lease Capitalize" : false,
         "Lease details" : {
             "Lease Expense Table" : [295,287,235,194,151,98,605],
             "@EBIT Adj to Lease" : 134.33 ,
-            "@--Tax Adj to Lease" : 33.58,
             "@Interest Adj to Lease" : null,
             "@Debt Adj to Lease" :  1285
         },
@@ -52,9 +49,6 @@
             "CoD estimation method" : "Synthetic rating",
             "Synthetic method" : {
                 "Company Type" : "large or safe",
-                "@Interest coverage ratio" : 11.58,
-                "@Company def: spread%" : 0.7,
-                "@Country def: spread%" : 0.0,
                 "@Pre tax CoD using synthetic method%" : 4.78
             },
             "Actual rating method" : {
