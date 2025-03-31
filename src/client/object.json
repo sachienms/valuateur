@@ -78,7 +78,7 @@
                 "@MV of equity" : 1773148,
                 "@levered beta" : 1.24,
                 "beta calculation" : {
-                    "Industry to consider" : "US Business",
+                    "Industry focus (US/Global)" : "US",
                     "Multi industry" : true,
                     "Industries " : ["Computers/Peripherals", "Electronics (General)", "Entertainment"],
                     "Revenue for each industry" : [195010, 43000, 15000],
@@ -102,7 +102,7 @@
                 "@CoC using detailed method%" : 9.67
             },
             "Industry avg method" : {
-                "@Industry to consider" : "US Business",
+                "Industry focus (US/Global)" : "US",
                 "@Multi industry" : true,
                 "@Industries " : ["Computers/Peripherals", "Electronics (General)", "Entertainment"],
                 "@Revenue for each industry" : [195010, 43000, 15000],
