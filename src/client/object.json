@@ -67,14 +67,13 @@
         },
         "@EBIT TTM (Adj)" : 65139,
         "@Cash TTM (Adj)" : 86780.00,
-        "@Debt PV" : 161574,
+        "@MV of Debt" : 149156,
+        "@Cost of debt%" : 3.59,
         "@Cost of capital" : 8.6,
         "CoC calculation" : {
             "CoC estimation method" : "Detailed",
             "Detailed method" : {
                 "Share outstanding" : 10492,
-                "@Cost of debt%" : 3.59,
-                "@MV of debt": 149156,
                 "@current share price" : 169,
                 "@MV of equity" : 1773148,
                 "@levered beta" : 1.24,
