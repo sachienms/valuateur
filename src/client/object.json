@@ -27,6 +27,7 @@
             "BV of conv debt" : 0,
             "Interest on conv debt" : 0,
             "Conv debt maturity" : 0,
+            "MV of conv debt" : 0,
             "@Convertible debt (PV)": 0
         },
         "Minority Interest" : [0,0],
@@ -77,7 +78,6 @@
                 "CoC estimation method" : "Detailed",
                 "Detailed method" : {
                     "Share outstanding" : 10492,
-                    "--Market value of conv" : 0,
                     "@Cost of debt%" : 3.59,
                     "@MV of debt": 149156,
                     "@current share price" : 169,
