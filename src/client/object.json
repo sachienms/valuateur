@@ -67,60 +67,60 @@
         },
         "@EBIT TTM (Adj)" : 65139,
         "@Cash TTM (Adj)" : 86780.00,
-        "@Debt PV" : 161574
+        "@Debt PV" : 161574,
+        "@Cost of capital" : 8.6,
+        "CoC calculation" : {
+            "CoC estimation method" : "Detailed",
+            "Detailed method" : {
+                "Share outstanding" : 10492,
+                "@Cost of debt%" : 3.59,
+                "@MV of debt": 149156,
+                "@current share price" : 169,
+                "@MV of equity" : 1773148,
+                "@levered beta" : 1.24,
+                "beta calculation" : {
+                    "Industry to consider" : "US Business",
+                    "Multi industry" : true,
+                    "Industries " : ["Computers/Peripherals", "Electronics (General)", "Entertainment"],
+                    "Revenue for each industry" : [195010, 43000, 15000],
+                    "@Industry wise ev/sale" : [5.5117,2.177,3.0674],
+                    "@Industry wise ul-beta" : [1.1004,0.8772,0.8657],
+                    "@Unlevered beta" : 1.0743,
+                    "@levered beta using industry type" : 1.24
+                },
+                "@Equity Risk Premium%" : 4.90,
+                "@Mature market ERP%" : 4.11,
+                "ERP calculation" : {
+                    "ERP calculation method" : "Operating Region",
+                    "Operating regions/cuntries" : ["United States","China","Rest of the world"],
+                    "Revenue for each regions/cuntries" : [193636,500,31335],
+                    "@ERP calculated%" : 4.43
+                },
+                "@Cost of equity%" : 10.18,
+                "Prefered share price": 70,
+                "Number of PS" : 0,
+                "Annual dividend per PS" : 5,
+                "@CoC using detailed method%" : 9.67
+            },
+            "Industry avg method" : {
+                "@Industry to consider" : "US Business",
+                "@Multi industry" : true,
+                "@Industries " : ["Computers/Peripherals", "Electronics (General)", "Entertainment"],
+                "@Revenue for each industry" : [195010, 43000, 15000],
+                "@Industry wise CoC%" : [8.79,7.54,7.46],
+                "@CoC using industry avg method%" : 9.67
+            },
+            "Region avg method" : {
+                "Grouping(US,Emerging,Global)" : "US",
+                "Risk grouping(Decile, Quartile, Median, 3rd Quartile, 9th Decile)" : "Median",
+                "@CoC using region risk grouping%" : 8.60
+            }
+        }
     },
     "@Estimated value per share" : 103.79,
     "Value per share calculation" : {
         "Valuation Method" : "FCFF",
         "FCFF calculation" : {
-            "@Cost of capital" : 8.6,
-            "CoC calculation" : {
-                "CoC estimation method" : "Detailed",
-                "Detailed method" : {
-                    "Share outstanding" : 10492,
-                    "@Cost of debt%" : 3.59,
-                    "@MV of debt": 149156,
-                    "@current share price" : 169,
-                    "@MV of equity" : 1773148,
-                    "@levered beta" : 1.24,
-                    "beta calculation" : {
-                        "Industry to consider" : "US Business",
-                        "Multi industry" : true,
-                        "Industries " : ["Computers/Peripherals", "Electronics (General)", "Entertainment"],
-                        "Revenue for each industry" : [195010, 43000, 15000],
-                        "@Industry wise ev/sale" : [5.5117,2.177,3.0674],
-                        "@Industry wise ul-beta" : [1.1004,0.8772,0.8657],
-                        "@Unlevered beta" : 1.0743,
-                        "@levered beta using industry type" : 1.24
-                    },
-                    "@Equity Risk Premium%" : 4.90,
-                    "@Mature market ERP%" : 4.11,
-                    "ERP calculation" : {
-                        "ERP calculation method" : "Operating Region",
-                        "Operating regions/cuntries" : ["United States","China","Rest of the world"],
-                        "Revenue for each regions/cuntries" : [193636,500,31335],
-                        "@ERP calculated%" : 4.43
-                    },
-                    "@Cost of equity%" : 10.18,
-                    "Prefered share price": 70,
-                    "Number of PS" : 0,
-                    "Annual dividend per PS" : 5,
-                    "@CoC using detailed method%" : 9.67
-                },
-                "Industry avg method" : {
-                    "@Industry to consider" : "US Business",
-                    "@Multi industry" : true,
-                    "@Industries " : ["Computers/Peripherals", "Electronics (General)", "Entertainment"],
-                    "@Revenue for each industry" : [195010, 43000, 15000],
-                    "@Industry wise CoC%" : [8.79,7.54,7.46],
-                    "@CoC using industry avg method%" : 9.67
-                },
-                "Region avg method" : {
-                    "Grouping(US,Emerging,Global)" : "US",
-                    "Risk grouping(Decile, Quartile, Median, 3rd Quartile, 9th Decile)" : "Median",
-                    "@CoC using region risk grouping%" : 8.60
-                }
-            },
             "@Present value" :  1160852.48,
             "PV calculation" : {
                 "Revenue projection" : {
