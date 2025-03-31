@@ -21,6 +21,14 @@
         "Interest expense" : [3182,2367],
         "Book value of equity" : [201875,146043],
         "Book value of debt" : [161574,169938],
+        "Average debt maturity" : 3,
+        "Convertible debt" : true,
+        "Convertible debt details" : {
+            "BV of conv debt" : 0,
+            "Interest on conv debt" : 0,
+            "Conv debt maturity" : 0,
+            "@Convertible debt (PV)": 0
+        },
         "Minority Interest" : [0,0],
         "Cross holdings and other non-operating assets" : [2954,2815],
         "Cash and Marketable Securities" : [86780,70026],
@@ -42,7 +50,7 @@
             "Lease Expense Table" : [295,287,235,194,151,98,605],
             "@EBIT Adj to Lease" : 134.33 ,
             "@Interest Adj to Lease" : null,
-            "@Debt Adj to Lease" :  1285
+            "@Debt Adj to Lease (PV)" :  1285
         },
         "@Pre-tax cost of debt%" : 4.78,
         "Pre tax CoD calculation" : {
@@ -57,9 +65,8 @@
             }
         },
         "@EBIT TTM (Adj)" : 65139,
-        "@Debt TTM (Adj)" : 161574,
         "@Cash TTM (Adj)" : 86780.00,
-        "@Interest TTM (Adj)": 3182 
+        "@Debt PV" : 161574
     },
     "@Estimated value per share" : 103.79,
     "Value per share calculation" : {
@@ -69,10 +76,6 @@
             "CoC calculation" : {
                 "CoC estimation method" : "Detailed",
                 "Detailed method" : {
-                    "Average debt maturity" : 3,
-                    "BV of conv debt" : 0,
-                    "Interest on conv debt" : 0,
-                    "Conv debt maturity" : 0,
                     "Share outstanding" : 10492,
                     "--Market value of conv" : 0,
                     "@Cost of debt%" : 3.59,
