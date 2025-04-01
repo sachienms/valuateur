@@ -102,9 +102,8 @@
             "Industry avg method" : {
                 "Industry focus (US/Global)" : "US",
                 "@Multi industry" : true,
-                "@Industry_list" : ["Computers/Peripherals", "Electronics (General)", "Entertainment"],
-                "@Revenue_list" : [195010, 43000, 15000],
-                "@Industry wise CoC%" : [8.79,7.54,7.46],
+                "Industry_list" : ["Computers/Peripherals", "Electronics (General)", "Entertainment"],
+                "Revenue_list" : [195010, 43000, 15000],
                 "@CoC using industry avg method%" : 9.67
             },
             "Market avg method" : {
