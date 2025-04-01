@@ -90,7 +90,7 @@
                 "ERP calculation" : {
                     "ERP based on (Region/Country)" : "Region",
                     "Multi location" : true,
-                    "Loc_list" : ["United States","China","Rest of the world"],
+                    "Loc_list" : ["United States","China","Global"],
                     "Revenue_list" : [193636,500,31335],
                     "@ERP calculated%" : 4.43
                 },
