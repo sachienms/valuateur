@@ -110,9 +110,9 @@
                 "@CoC using industry avg method%" : 9.67
             },
             "Region avg method" : {
-                "Grouping(US,Emerging,Global)" : "US",
-                "Risk grouping(Decile, Quartile, Median, 3rd Quartile, 9th Decile)" : "Median",
-                "@CoC using region risk grouping%" : 8.60
+                "Region" : "US",
+                "Risk grouping" : "Median",
+                "@CoC using region%" : 8.60
             }
         }
     },
