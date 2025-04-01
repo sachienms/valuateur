@@ -82,8 +82,6 @@
                     "Multi industry" : true,
                     "Industries " : ["Computers/Peripherals", "Electronics (General)", "Entertainment"],
                     "Revenue for each industry" : [195010, 43000, 15000],
-                    "@Industry wise ev/sale" : [5.5117,2.177,3.0674],
-                    "@Industry wise ul-beta" : [1.1004,0.8772,0.8657],
                     "@Unlevered beta" : 1.0743,
                     "@levered beta calculated" : 1.24
                 },
