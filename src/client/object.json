@@ -109,8 +109,8 @@
                 "@Industry wise CoC%" : [8.79,7.54,7.46],
                 "@CoC using industry avg method%" : 9.67
             },
-            "Region avg method" : {
-                "Region" : "US",
+            "Market avg method" : {
+                "Market" : "US",
                 "Risk grouping" : "Median",
                 "@CoC using region%" : 8.60
             }
