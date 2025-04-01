@@ -94,9 +94,9 @@
                     "@ERP calculated%" : 4.43
                 },
                 "@Cost of equity%" : 10.18,
-                "Prefered share price": 70,
-                "Number of PS" : 0,
-                "Annual dividend per PS" : 5,
+                "PS price": 70,
+                "PS number" : 0,
+                "PS annual divident" : 5,
                 "@CoC using detailed method%" : 9.67
             },
             "Industry avg method" : {
