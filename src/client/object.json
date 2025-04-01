@@ -84,9 +84,9 @@
                     "Revenue_list" : [195010, 43000, 15000],
                     "@Unlevered beta" : 1.0743,
                     "@Levered beta" : 1.24
-                },
-                "@Equity Risk Premium%" : 4.90,
+                },  
                 "@Mature market ERP%" : 4.11,
+                "@Equity Risk Premium%" : 4.90,
                 "ERP calculation" : {
                     "Multi location" : true,
                     "Loc_list" : ["United States","China","Global"],
