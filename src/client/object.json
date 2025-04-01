@@ -80,7 +80,7 @@
                 "beta calculation" : {
                     "Industry focus (US/Global)" : "US",
                     "Multi industry" : true,
-                    "Industry_list " : ["Computers/Peripherals", "Electronics (General)", "Entertainment"],
+                    "Industry_list" : ["Computers/Peripherals", "Electronics (General)", "Entertainment"],
                     "Revenue_list" : [195010, 43000, 15000],
                     "@Unlevered beta" : 1.0743,
                     "@levered beta calculated" : 1.24
