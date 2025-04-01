@@ -88,7 +88,7 @@
                 "@Equity Risk Premium%" : 4.90,
                 "@Mature market ERP%" : 4.11,
                 "ERP calculation" : {
-                    "ERP calculation method" : "Operating Region",
+                    "ERP based on (Region/Country)" : "Region",
                     "Multi location" : true,
                     "Loc_list" : ["United States","China","Rest of the world"],
                     "Revenue_list" : [193636,500,31335],
