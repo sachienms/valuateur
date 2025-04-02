@@ -109,7 +109,7 @@
             "Market avg method" : {
                 "Market" : "US",
                 "Risk grouping" : "Median",
-                "@CoC using market%" : 8.60
+                "@CoC using market avg method%" : 8.60
             }
         }
     },
