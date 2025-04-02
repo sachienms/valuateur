@@ -122,7 +122,7 @@
                 "Revenue projection" : {
                     "Revenue growth in 3 stages%" : [12,12,4.08],
                     "@Industry RG (US,Global)%" : [18.06,0.96],
-                    "@Industry RG(3Y) Global stat (1st,median,3rd)%" : [-7.74,2.54,11.1],
+                    "@Industry RG(3Y) Global stat%" : [-7.74,2.54,11.1],
                     "@Revenue growth tbl%" : [null,12.00,12.00,12.00,12.00,12.00,10.42,8.83,7.25,5.66,4.08,4.08],
                     "@Revenue tbl" : [574785,643759.2,721010.3,807531.5,904435.3,1012967.5,1118478.2,1217262.2,1305489.4,1379432.3,1435713.2,1494290.3]
                 },
@@ -131,7 +131,7 @@
                     "Year of convergence of OM" : 5, 
                     "@Current Operating Margin%" : 11.33,
                     "@Industry OM (US,Global)%" : [4.41,4.35],
-                    "@Industry OM Global stat (1st,median,3rd)%" : [-0.92,3.92,8.69],
+                    "@Industry OM Global stat%" : [-0.92,3.92,8.69],
                     "@OM tbl" : [11.33,11.33,12.4,12.93,13.47,14,14,14,14,14,14,14],
                     "@EBIT tbl" : [65139,72955.68,89402.79,104438.89,121796.25,141815.46,156586.96,170416.72,182768.52,193120.53,200999.85,209200.64]
                 },
@@ -145,7 +145,7 @@
                     "Sales to Capital ratio 1-5,6-10" : [1.5,1.5],
                     "Reinvestment lag (0-3)" : 1, 
                     "@Industry SC ratio (US,Global)%" : [2.41,2.13],
-                    "@Industry SC ratio Global stat (1st,median,3rd)%" : [0.69,1.83,3.35],
+                    "@Industry SC ratio Global stat%" : [0.69,1.83,3.35],
                     "@Reinvestment tbl" : [null,51500.74,57680.82,64602.52,72354.83,70340.47,65856,58818.11,49295.28,37520.56,39051.4,78162.88]
                 },
                 "@Free cashflow tbl" : [0,7593.36,14735.44,19992.98,26300.14,44530.05,59100.39,75129.43,92167.55,109637.28,111698.49,78737.6],
