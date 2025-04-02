@@ -122,7 +122,7 @@
                 "Revenue projection" : {
                     "Revenue growth in 3 stages%" : [12,12,4.08],
                     "@Industry RG (US,Global)%" : [18.06,0.96],
-                    "@Industry Global stat (1st,median,3rd)%" : [-7.74,2.54,11.1],
+                    "@Industry RG(3Y) Global stat (1st,median,3rd)%" : [-7.74,2.54,11.1],
                     "@Revenue growth tbl%" : [null,12.00,12.00,12.00,12.00,12.00,10.42,8.83,7.25,5.66,4.08,4.08],
                     "@Revenue tbl" : [574785,643759.2,721010.3,807531.5,904435.3,1012967.5,1118478.2,1217262.2,1305489.4,1379432.3,1435713.2,1494290.3]
                 },
