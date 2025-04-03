@@ -129,7 +129,7 @@
                 "EBIT projection" : {
                     "OM next year and target%" : [11.33,14],
                     "Year of convergence of OM" : 5, 
-                    "@Current Operating Margin%" : 11.33,
+                    "@Current Operating Margin%" : 11.333,
                     "@Industry OM (US,Global)%" : [4.41,4.35],
                     "@Industry OM Global stat%" : [-0.92,3.92,8.69],
                     "@OM tbl" : [11.33,11.33,12.4,12.93,13.47,14,14,14,14,14,14,14],
