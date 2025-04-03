@@ -44,7 +44,8 @@
         "R&D details" : {
             "R&D Expense Table" : [85622,73213,56052,42740],
             "@Industry Amortisation year" : 3,
-            "@EBIT Adj to R&D" : 28287
+            "@EBIT Adj to R&D" : 28287,
+            "@UnAmortisatised portion" : 153114.67
         },
         "Lease Capitalize" : false,
         "Lease details" : {
