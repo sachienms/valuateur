@@ -142,13 +142,6 @@
                     "Losses carried forwarded" : 0,
                     "@EBI tbl" : [52762.59,59094.1,72416.26,84595.5,98654.96,114870.52,124956.39,133947.54,141462.84,147157.84,150749.89,156900.48]
                 },
-                "Reinvestment projection" : {
-                    "Sales to Capital ratio 1-5,6-10" : [1.5,1.5],
-                    "Reinvestment lag (0-3)" : 1, 
-                    "@Industry SC ratio (US,Global)%" : [2.41,2.13],
-                    "@Industry SC ratio Global stat%" : [0.69,1.83,3.35],
-                    "@Reinvestment tbl" : [null,51500.74,57680.82,64602.52,72354.83,70340.47,65856,58818.11,49295.28,37520.56,39051.4,78162.88]
-                },
                 "COC projection" : {
                     "RFR 10+ yr" : 4.08,
                     "COC term as per mature market" : true,
@@ -161,6 +154,13 @@
                     "ROIC term is CoC term" : true,
                     "@ROIC 10+ yr" : 8.19,
                     "@ROIC tbl" : [0,12.277,13.75,15.046,15.696,16.345,16.995,16.744,16.494,16.243,15.991,15.74,8.19]
+                },
+                "Reinvestment projection" : {
+                    "Sales to Capital ratio 1-5,6-10" : [1.5,1.5],
+                    "Reinvestment lag (0-3)" : 1, 
+                    "@Industry SC ratio (US,Global)%" : [2.41,2.13],
+                    "@Industry SC ratio Global stat%" : [0.69,1.83,3.35],
+                    "@Reinvestment tbl" : [null,51500.74,57680.82,64602.52,72354.83,70340.47,65856,58818.11,49295.28,37520.56,39051.4,78162.88]
                 },
                 "@Free cashflow tbl" : [0,7593.36,14735.44,19992.98,26300.14,44530.05,59100.39,75129.43,92167.55,109637.28,111698.49,78737.6],
                 "@PV of CF tbl" : [0,6992,12494.1,15609.5,18907.7,29478.4,36052.8,42265.5,47853,52574.2,49507.9,null],
