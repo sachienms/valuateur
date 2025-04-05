@@ -69,6 +69,7 @@
         "@EBIT TTM (Adj)" : 65139,
         "@Cash TTM (Adj)" : 86780.00,
         "@MV of Debt" : 149156,
+        "@BV of Debt" : 149156,
         "@Cost of debt%" : 3.59,
         "@Cost of capital%" : 8.6,
         "CoC calculation" : {
