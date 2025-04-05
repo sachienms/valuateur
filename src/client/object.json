@@ -22,6 +22,7 @@
         "Book value of equity" : [201875,146043],
         "Book value of debt" : [161574,169938],
         "Average debt maturity" : 3,
+        "Shares outstanding" : 10492,
         "Convertible debt" : true,
         "Convertible debt details" : {
             "BV of conv debt" : 0,
@@ -75,7 +76,6 @@
         "CoC calculation" : {
             "CoC estimation method" : "Detailed",
             "Detailed method" : {
-                "Share outstanding" : 10492,
                 "@current share price" : 169,
                 "@MV of equity" : 1773148,
                 "@Levered beta" : 1.24,
@@ -183,7 +183,6 @@
                 "Average maturity" : 7,
                 "SD of stock price%" : 45,
                 "@current share price" : 169,
-                "@Share outstanding" :10492,
                 "@value per option" : 168.03
             },
             "@Common equity value" :  1089012.48,
