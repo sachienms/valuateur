@@ -150,7 +150,7 @@
                     "@CoC tbl%" : [0,8.6,8.6,8.6,8.6,8.6,8.52,8.44,8.35,8.27,8.19,8.19],
                     "@Cumulative discount Factor tbl" : [null,0.92,0.85,0.78,0.72,0.66,0.61,0.56,0.52,0.48,0.44,null]
                 },
-                "Reinvestment projection" : {
+                "ROIC projection" : {
                     "Sales to Capital ratio 1-5,6-10" : [1.5,1.5],
                     "Reinvestment lag (0-3)" : 1, 
                     "ROIC term is CoC term" : true,
