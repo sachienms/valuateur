@@ -171,7 +171,6 @@
                 "Probability of failure%" : 0,
                 "Tie the proceeds in failure to" : "Fair value",
                 "Distress proceeds%" : 50,
-                "@Debt TTM (Adj)" :161574,
                 "@Proceeds if fails" : 580426.24
             },
             "@Equity value" :  1089012.48,
