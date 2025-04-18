@@ -15,6 +15,7 @@
     "@Country spread%" : 0.0,
     "@Risk Free rate%" : 4.08,
     "@Marginal Tax rate%" : 25,
+    "Expected inflation rate%" : 3.00,
     "Industry" : "Retail (General)",
     "Financial details" : {
         "Revenue" : [574785,513983],
@@ -84,6 +85,7 @@
                     "Multi industry" : true,
                     "Industry_list" : ["Computers/Peripherals", "Electronics (General)", "Entertainment"],
                     "Market_list" : ["US", "India", "Global"],
+                    "@Marginal Tax%" : [24,25,26],
                     "Revenue_list" : [195010, 43000, 15000],
                     "@Unlevered beta" : 1.0743,
                     "@Levered beta" : 1.24
@@ -106,6 +108,7 @@
                 "Multi industry" : true,
                 "Industry_list" : ["Computers/Peripherals", "Electronics (General)", "Entertainment"],
                 "Market_list" : ["US", "India", "Global"],
+                "@Marginal Tax%" : [24,25,26],
                 "Revenue_list" : [195010, 43000, 15000],
                 "@CoC using industry avg method%" : 9.67
             },
