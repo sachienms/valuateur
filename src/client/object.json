@@ -6,6 +6,7 @@
     "Created date" : "2024-04-13",
     "Last updated" : "2024-04-13",
     "Country of incorporation" : "United States",
+    "@Primary Market" : "US",
     "Show values in" : "Billions",
     "Riskfree rate consideration" : "Local",
     "10Y treasury yield%": 6.75,
@@ -80,18 +81,18 @@
                 "@MV of equity" : 1773148,
                 "@Levered beta" : 1.24,
                 "beta calculation" : {
-                    "Industry focus (US/Global)" : "US",
                     "Multi industry" : true,
                     "Industry_list" : ["Computers/Peripherals", "Electronics (General)", "Entertainment"],
+                    "Market_list" : ["US", "India", "Global"],
                     "Revenue_list" : [195010, 43000, 15000],
                     "@Unlevered beta" : 1.0743,
                     "@Levered beta" : 1.24
                 },  
                 "@Mature market ERP%" : 4.11,
                 "@Equity Risk Premium%" : 4.90,
-                "ERP calculation" : {
-                    "Multi location" : true,
-                    "Loc_list" : ["United States","China","Global"],
+                "ERP calculation" : {   
+                    "Multi market" : true,
+                    "Market_list" : ["United States","China","Global"],
                     "Revenue_list" : [193636,500,31335],
                     "@ERP calculated%" : 4.43
                 },
@@ -102,14 +103,13 @@
                 "@CoC using detailed method%" : 9.67
             },
             "Industry avg method" : {
-                "Industry focus (US/Global)" : "US",
                 "Multi industry" : true,
                 "Industry_list" : ["Computers/Peripherals", "Electronics (General)", "Entertainment"],
+                "Market_list" : ["US", "India", "Global"],
                 "Revenue_list" : [195010, 43000, 15000],
                 "@CoC using industry avg method%" : 9.67
             },
             "Market avg method" : {
-                "Market" : "US",
                 "Risk grouping" : "Median",
                 "@CoC using market avg method%" : 8.60
             }
@@ -123,17 +123,16 @@
             "PV calculation" : {
                 "Revenue projection" : {
                     "Revenue growth in 3 stages%" : [12,12,4.08],
-                    "@Industry RG (US,Global)%" : [18.06,0.96],
-                    "@Industry RG(3Y) Global stat%" : [-7.74,2.54,11.1],
+                    "@Industry RG(2Y)%" : [18.06,0.96],
+                    "@Industry RG(5Y)%" : [-7.74,2.54,11.1],
                     "@Revenue growth tbl%" : [null,12.00,12.00,12.00,12.00,12.00,10.42,8.83,7.25,5.66,4.08,4.08],
                     "@Revenue tbl" : [574785,643759.2,721010.3,807531.5,904435.3,1012967.5,1118478.2,1217262.2,1305489.4,1379432.3,1435713.2,1494290.3]
                 },
                 "EBIT projection" : {
                     "OM next year and target%" : [11.33,14],
-                    "Year of convergence of OM" : 5, 
+                    "@Industry OM%" : [4.41,4.35],
+                    "Year of convergence of OM" : 5,
                     "@Current Operating Margin%" : 11.333,
-                    "@Industry OM (US,Global)%" : [4.41,4.35],
-                    "@Industry OM Global stat%" : [-0.92,3.92,8.69],
                     "@OM tbl" : [11.33,11.33,12.4,12.93,13.47,14,14,14,14,14,14,14],
                     "@EBIT tbl" : [65139,72955.68,89402.79,104438.89,121796.25,141815.46,156586.96,170416.72,182768.52,193120.53,200999.85,209200.64]
                 },
@@ -149,17 +148,18 @@
                     "@Mature market ERP%" : 4.11,
                     "@CoC 10+ yr" : 8.19,
                     "@CoC tbl%" : [0,8.6,8.6,8.6,8.6,8.6,8.52,8.44,8.35,8.27,8.19,8.19],
-                    "@CDF tbl" : [null,0.92,0.85,0.78,0.72,0.66,0.61,0.56,0.52,0.48,0.44,null]
+                    "@CDF tbl" : [null,0.92,0.85,0.78,0.72,0.66,0.61,0.56,0.52,0.48,0.44,null],
+                    "@Industry COC%" : [4.41,4.35]
                 },
                 "ROIC projection" : {
                     "Sales to Capital ratio 1-5,6-10" : [1.5,1.5],
+                    "@Industry SC%" : [2.41,2.13],
                     "Reinvestment lag (0-3)" : 1, 
                     "ROIC term is CoC term" : true,
                     "@ROIC 10+ yr" : 8.19,
-                    "@Industry SC ratio (US,Global)%" : [2.41,2.13],
-                    "@Industry SC ratio Global stat%" : [0.69,1.83,3.35],
                     "@Reinvestment tbl" : [null,51500.74,57680.82,64602.52,72354.83,70340.47,65856,58818.11,49295.28,37520.56,39051.4,78162.88],
-                    "@ROIC tbl%" : [0,12.277,13.75,15.046,15.696,16.345,16.995,16.744,16.494,16.243,15.991,15.74,8.19]
+                    "@ROIC tbl%" : [0,12.277,13.75,15.046,15.696,16.345,16.995,16.744,16.494,16.243,15.991,15.74,8.19],
+                    "@Industry ROIC%" : [4.41,4.35]
                 },
                 "@Free cashflow tbl" : [0,7593.36,14735.44,19992.98,26300.14,44530.05,59100.39,75129.43,92167.55,109637.28,111698.49,78737.6],
                 "@PV of CF tbl" : [0,6992,12494.1,15609.5,18907.7,29478.4,36052.8,42265.5,47853,52574.2,49507.9,null],
