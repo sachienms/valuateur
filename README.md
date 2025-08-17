@@ -29,8 +29,36 @@ when the user click on the watchlist card bottum popup will appear with more det
 
 At the bottom right of the screen there shall be a flating round button to add new stock valuation (for free users, it will appear only if they have no saved valuation). When  it clicked, it will expand to different valuation to select from (for strating only FCFF will be available). When FCFF is selected it will goes to FCFF valuation
 
-# FCFF valuation
-It will have 4 screens to capture the details of the stocks from the user, some details will be taken fom the global statistics tables.
+## FCFF valuation
+It will have 5 steps involved in the calculation, thus 5 screens. There has to be a status bar in the top which shows the process completion status
+1. General Info
+2. Financials
+3. Cost of capital
+4. Forecasting
+5. Valuation
+The fields present in each screen is listed below along with the type
+A. inout from user
+B. calculated or autopopulated field
+C. calculated but user can override the value)
+
+### General Info
+1. Company Name - A
+2. Description - A
+3. Ticker - B
+4. Last Modified on -B
+5. Country - B
+6. Currency - B
+7. Show values in - A
+8. 10Y Treasury yield - C
+9. Country spread - C
+10. Risk free rate - C
+11. Marginal tax rate -C
+12. Expected inflation rate - A
+13. Industry - C
+
+### FInancial Details
+
+
 
 
 
