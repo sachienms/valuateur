@@ -1,0 +1,58 @@
+# Financials
+
+//Present value of CF
+
+function presentValueOfCashFlows(cashFlowList: number[], rate: number): number {
+    let totalPresentValue = 0;
+    for (let index = 0; index < cashFlowList.length; index++) {
+        const payment = cashFlowList[index];
+        totalPresentValue += payment / Math.pow((1 + rate/100), index + 1);
+    }
+    return totalPresentValue;
+}
+
+
+
+
+//R&D Capitalization
+
+function updateCapRnd(): void {
+    const rnd: number[] = [230, 45, 900, 599]; //to be fetched from form
+    const amortization: number = (rnd.reduce((a, b) => a + b, 0) - rnd[0]) / (rnd.length - 1);
+    const EBIT_adj: number = rnd[0] - amortization;
+    const frctn: number = 1 / (rnd.length - 1);
+    const unAmoamortized: number = parseFloat(rnd.reduce((acc, val, i) => acc + (val * (1 - i * frctn)), 0).toFixed(2));
+}
+
+
+//Lease Capitalize-update or pass the (EBIT,interest)value
+
+function capitalizeLease(cod: number | null = null): [number, number] { // only modify the object value if no parameter is passed.
+  const lease: number[] = [230, 220, 113, 45]; // from form
+  const yearsBeyond: number = Math.floor(lease[lease.length - 1] / (lease.slice(1, -1).reduce((a, b) => a + b, 0) / (lease.length - 2)));
+  
+  let preCod: number;
+  if (cod === null) {
+    preCod = 6.78 / 100; // to be fetched from form
+  } else {
+    preCod = cod / 100;
+  }
+  
+  const cfList: number[] = lease.slice(1, -1).concat(Array(yearsBeyond).fill(lease[lease.length - 1] / yearsBeyond));
+  const sumPv: number = presentValueOfCashFlows(cfList, preCod, cfList.length);
+  const depreciationAdj: number = sumPv / cfList.length;
+  const EBITAdj: number = lease[0] - depreciationAdj;
+  const debtAdj: number = sumPv;
+  const interestAdj: number = debtAdj * preCod;
+  
+  if (cod === null) {
+    // Update the field value
+  }
+  
+  return [EBITAdj, interestAdj];
+}
+
+
+
+
+
