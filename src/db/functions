@@ -16,13 +16,13 @@ function presentValueOfCashFlows(cashFlowList: number[], rate: number): number {
 
 //R&D Capitalization
 
-function updateCapRnd(): [number, number] {
-    const rnd: number[] = [230, 45, 900, 599]; //to be fetched from form
+function updateCapRnd(): void {
+    const rnd: number[] = [230, 45, 900, 599]; //to be fetched from the form
     const amortization: number = (rnd.reduce((a, b) => a + b, 0) - rnd[0]) / (rnd.length - 1);
     const EBIT_adj: number = rnd[0] - amortization;
     const frctn: number = 1 / (rnd.length - 1);
     const unAmoamortized: number = parseFloat(rnd.reduce((acc, val, i) => acc + (val * (1 - i * frctn)), 0).toFixed(2));
-    return [EBIT_adj,unAmoamortized] //to be changed to assigning to text box.
+    //console.log([EBIT_adj,unAmoamortized])
 }
 
 
@@ -30,16 +30,13 @@ function updateCapRnd(): [number, number] {
 function capitalizeLease(cod: number | null = null): [number, number] { // only modify the object value if no parameter is passed.
   const lease: number[] = [295,287, 235, 194, 151,98,605]; // from form
   const yearsBeyond: number = Math.floor(lease[lease.length - 1] / (lease.slice(1, -1).reduce((a, b) => a + b, 0) / (lease.length - 2)));
-  
   //const avg: number = (lease.slice(0, -1).reduce((a, b) => a + b, 0) / (lease.length - 1));
-
   let preCod: number;
   if (cod === null) {
     preCod = 5 / 100; // to be fetched from form
   } else {
     preCod = cod / 100;
   }
-  
   const cfList: number[] = lease.slice(1, -1).concat(Array(yearsBeyond).fill(lease[lease.length - 1] / yearsBeyond));
   //console.log(cfList);
   const sumPv: number = presentValueOfCashFlows(cfList, preCod);
@@ -52,9 +49,47 @@ function capitalizeLease(cod: number | null = null): [number, number] { // only 
   if (cod === null) {
     // Update the field value
   }
-  
   return [EBITAdj, interestAdj];
 }
+
+//calculate cod for given ebit & int
+function ptcodSyncCalc(EBIT: number, interest: number): number {
+    let icr: number;
+    if (EBIT < 0) {
+        icr = -100000 + 1;
+    } else if (interest === 0) {
+        icr = 100000;
+    } else {
+        icr = EBIT / interest;
+    }
+    
+    const firmType: string = "small"; // get from form
+    const companySpread: number = 0.02 * 100; // get from database
+    const rfr: number = 4.11; // get from form
+    const countrySpread: number = 1.1; // get from form
+    
+    return rfr + countrySpread + companySpread;
+}
+
+//cod synth main function
+function ptcodSync(): void {
+    const EBIT: number = ebit + ebitAdjRnD; // get from form
+    const Interest: number = parseInt(interestInput); // get from form
+    let EBIT_adj: number = 0;
+    let interest_adj: number = 0;
+    let cod_i: number = 4.08; // rfr
+    let cod_j: number = ptcodSyncCalc(EBIT, Interest);
+    
+    while (cod_i !== cod_j) {
+        [EBIT_adj, interest_adj] = capitalizeLease(cod_i);
+        cod_j = ptcodSyncCalc(EBIT + EBIT_adj, Interest + interest_adj);
+        [EBIT_adj, interest_adj] = capitalizeLease(cod_j);
+        cod_i = ptcodSyncCalc(EBIT + EBIT_adj, Interest + interest_adj);
+    }
+    // assign cod_i to cod
+}
+
+
 
 
 
