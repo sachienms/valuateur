@@ -26,7 +26,7 @@ function updateCapRnd(): void {
 }
 
 
-//Lease Capitalize-update or pass the (EBIT,interestAdj)value
+//Lease Capitalize-update or pass the (EBIT,interestAdj) from lease and cod value
 function capitalizeLease(cod: number | null = null): [number, number] { // only modify the object value if no parameter is passed.
   const lease: number[] = [295,287, 235, 194, 151,98,605]; // from form
   const yearsBeyond: number = Math.floor(lease[lease.length - 1] / (lease.slice(1, -1).reduce((a, b) => a + b, 0) / (lease.length - 2)));
@@ -88,6 +88,17 @@ function ptcodSync(): void {
     }
     // assign cod_i to cod
 }
+
+//cod from rating
+function ptcodRating(): void {
+    const rating: string = "AAA"; // from the form
+    const companySpread: number = 34 * 100; // from the database
+    const rfr: number = 4.01; // from form
+    const codFromRating: number = parseFloat((rfr + companySpread).toFixed(4)); // to be saved to the form
+}
+
+
+
 
 
 
