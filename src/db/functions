@@ -25,6 +25,43 @@ function updateCapRnd(): void {
     //console.log([EBIT_adj,unAmoamortized])
 }
 
+//actual
+export const handleCalculateRandDAdjustments = (form: FormType) => {
+  const rndExpenses = form.getValues('randdExpenses')
+    ?.map(e => e.expense || 0)
+    .filter(e => e > 0) || [];
+    
+  if (rndExpenses.length < 2) {
+    // Not enough data to calculate
+    form.setValue('adjustedEbit', form.getValues('ebitTTM') || 0);
+    form.setValue('unamortizedAmount', 0);
+    return;
+  }
+  
+  const originalEbit = form.getValues('ebitTTM') || 0;
+  const currentYearExpense = rndExpenses[0];
+  const historicalExpenses = rndExpenses.slice(1);
+  
+  const amortization = historicalExpenses.reduce((a, b) => a + b, 0) / historicalExpenses.length;
+  const adjustedEbit = originalEbit + currentYearExpense - amortization;
+
+  const fraction = 1 / historicalExpenses.length;
+  const unamortizedAmount = rndExpenses.reduce((acc, val, i) => {
+    // The current year's expense is fully unamortized for this calculation model
+    if (i === 0) return acc + val;
+    // For historical expenses, reduce value based on its age
+    return acc + (val * (1 - (i * fraction)));
+  }, 0);
+
+  form.setValue('adjustedEbit', parseFloat(adjustedEbit.toFixed(2)), { shouldValidate: true, shouldDirty: true });
+  form.setValue('unamortizedAmount', parseFloat(unamortizedAmount.toFixed(2)), { shouldValidate: true, shouldDirty: true });
+};
+
+
+
+
+
+
 
 //Lease Capitalize-update or pass the (EBIT,interestAdj) from lease and cod value
 function capitalizeLease(cod: number | null = null): [number, number] { // only modify the object value if no parameter is passed.
