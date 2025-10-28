@@ -62,8 +62,6 @@ export const handleCalculateRandDAdjustments = (form: FormType) => {
   const rndExpenses = form.getValues('randdExpenses')
     ?.map(e => e.expense || 0)
     .filter(e => e > 0) || [];
-
-  const rndExpenses : number[] = [230, 45, 900, 599]; //tbd
     
   if (rndExpenses.length < 1) {
     // Not enough data to calculate
