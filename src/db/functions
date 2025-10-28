@@ -57,7 +57,34 @@ export const handleCalculateRandDAdjustments = (form: FormType) => {
   form.setValue('unamortizedAmount', parseFloat(unamortizedAmount.toFixed(2)), { shouldValidate: true, shouldDirty: true });
 };
 
+//modified
+export const handleCalculateRandDAdjustments = (form: FormType) => {
+  const rndExpenses = form.getValues('randdExpenses')
+    ?.map(e => e.expense || 0)
+    .filter(e => e > 0) || [];
 
+  const rndExpenses : number[] = [230, 45, 900, 599]; //tbd
+    
+  if (rndExpenses.length < 1) {
+    // Not enough data to calculate
+    form.setValue('adjustedEbit', form.getValues('ebitTTM') || 0);
+    form.setValue('unamortizedAmount', 0);
+    return;
+  }
+  
+  const currentYearExpense = rndExpenses[0];
+  const historicalExpenses = rndExpenses.slice(1);
+  
+  const amortization = historicalExpenses.reduce((a, b) => a + b, 0) / historicalExpenses.length;
+  const adjustedEbit = currentYearExpense - amortization;
+
+  const fraction = 1 / historicalExpenses.length;
+
+  const unamortizedAmount: number = parseFloat(rndExpenses.reduce((acc, val, i) => acc + (val * (1 - i * fraction)), 0).toFixed(2));
+
+  form.setValue('adjustedEbit', parseFloat(adjustedEbit.toFixed(2)), { shouldValidate: true, shouldDirty: true });
+  form.setValue('unamortizedAmount', parseFloat(unamortizedAmount.toFixed(2)), { shouldValidate: true, shouldDirty: true });
+};
 
 
 
