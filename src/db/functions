@@ -139,6 +139,84 @@ function ptcodRating(): void {
 
 
 
+//updated
+export const handleCalculateCostOfDebt = (form: FormType) => {
+  const leaseExpenses = form.getValues('leaseExpenses')
+    ?.map(e => Number(e.expense) || 0)
+    .filter(e => e > 0) || [];
+  
+    /*
+  if (leaseExpenses.length < 2) {
+    // Not enough data to calculate
+    form.setValue('adjustedEbit', 0);
+    form.setValue('unamortizedAmount', 0);
+    return;
+  }
+  */
+
+  const costOfDebtMethod = form.getValues('costOfDebtMethod');
+
+  let EBIT_adjRnd: number = 0;
+  if(form.getValues('capitalizeRandD')) {
+    EBIT_adjRnd = Number(form.getValues('adjustedEbit'));
+  }
+
+  const EBIT: number = Number(form.getValues('ebitTTM')) + EBIT_adjRnd;
+  const Interest: number = Number(form.getValues('interestExpenseTTM'));
+  let EBIT_adj: number = 0;
+  let interest_adj: number = 0;
+  let cod_i: number = Number(form.getValues('riskFreeRate'))/100
+  let cod_j: number = ptcodSyncCalc(EBIT, Interest); //to define the function
+
+  if (costOfDebtMethod === 'direct') {
+    const pcod = Number(form.getValues('pretaxCodDirect'));
+    if(pcod === 0){
+      return
+    }
+    handleCalculateLeaseAdjustments(leaseExpenses,pcod);
+  } else if (costOfDebtMethod === 'rating') {
+
+
+  } else {
+
+  }
+
+  form.setValue('unamortizedAmount', parseFloat(unamortizedAmount.toFixed(2)), { shouldValidate: true, shouldDirty: true });
+};
+
+
+
+export const handleCalculateLeaseAdjustments = (leaseExpenses: number[], pcod: number): [number, number] => {
+  const yearsBeyond: number = Math.floor(leaseExpenses[leaseExpenses.length - 1] / (leaseExpenses.slice(1, -1).reduce((a, b) => a + b, 0) / (leaseExpenses.length - 2)));
+  const cfList: number[] = leaseExpenses.slice(1, -1).concat(Array(yearsBeyond).fill(leaseExpenses[leaseExpenses.length - 1] / yearsBeyond));
+  const sumPv: number = presentValueOfCashFlows(cfList, pcod);
+  const depreciationAdj: number = sumPv / cfList.length;
+  const EBITAdj: number = leaseExpenses[0] - depreciationAdj;
+  const debtAdj: number = sumPv;
+  const interestAdj: number = debtAdj * pcod;
+  return [EBITAdj, interestAdj];
+};
+
+
+export const getSpreadFromDB = (EBIT: number, interest: number): number => {
+    let icr: number;
+    if (EBIT < 0) {
+        icr = -100000 + 1;
+    } else if (interest === 0) {
+        icr = 100000;
+    } else {
+        icr = EBIT / interest;
+    }
+    
+    const firmType: string = "small"; // get from form
+    const companySpread: number = 0.02 * 100; // get from database
+    const rfr: number = 4.11; // get from form
+    const countrySpread: number = 1.1; // get from form
+    
+    return rfr + countrySpread + companySpread;
+}
+
+
 
 
 
