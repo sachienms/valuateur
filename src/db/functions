@@ -2,7 +2,7 @@
 /*
 To do:
 1. remove console.log from handleCalculateRandDAdjustments()
-2.
+2. add countrySpread as in put to the onclick button for cal cost of debt.
 
 
 
@@ -140,7 +140,7 @@ function ptcodRating(): void {
 
 
 //updated
-export const handleCalculateCostOfDebt = (form: FormType) => {
+export const handleCalculateCostOfDebt = (form: FormType, countrySpread: Number) => {
   const leaseExpenses = form.getValues('leaseExpenses')
     ?.map(e => Number(e.expense) || 0)
     .filter(e => e > 0) || [];
@@ -155,18 +155,7 @@ export const handleCalculateCostOfDebt = (form: FormType) => {
   */
 
   const costOfDebtMethod = form.getValues('costOfDebtMethod');
-
-  let EBIT_adjRnd: number = 0;
-  if(form.getValues('capitalizeRandD')) {
-    EBIT_adjRnd = Number(form.getValues('adjustedEbit'));
-  }
-
-  const EBIT: number = Number(form.getValues('ebitTTM')) + EBIT_adjRnd;
-  const Interest: number = Number(form.getValues('interestExpenseTTM'));
-  let EBIT_adj: number = 0;
-  let interest_adj: number = 0;
-  let cod_i: number = Number(form.getValues('riskFreeRate'))/100
-  let cod_j: number = ptcodSyncCalc(EBIT, Interest); //to define the function
+  const riskFreeRate = Number(form.getValues('riskFreeRate'))/100;
 
   if (costOfDebtMethod === 'direct') {
     const pcod = Number(form.getValues('pretaxCodDirect'));
@@ -178,7 +167,22 @@ export const handleCalculateCostOfDebt = (form: FormType) => {
 
 
   } else {
-
+      let EBIT_adjRnd: number = 0;
+      if(form.getValues('capitalizeRandD')) {
+        EBIT_adjRnd = Number(form.getValues('adjustedEbit'));
+      }
+      const EBIT: number = Number(form.getValues('ebitTTM')) + EBIT_adjRnd;
+      const Interest: number = Number(form.getValues('interestExpenseTTM'));
+      let EBIT_adj: number = 0;
+      let interest_adj: number = 0;
+      let cod_i: number = riskFreeRate;
+      let cod_j: number = getSpreadFromDB(EBIT, Interest); //to define the function
+      while (cod_i !== cod_j) {
+        [EBIT_adj, interest_adj] = handleCalculateLeaseAdjustments(leaseExpenses,cod_i);
+        cod_j = getSpreadFromDB(EBIT + EBIT_adj, Interest + interest_adj);
+        [EBIT_adj, interest_adj] = handleCalculateLeaseAdjustments(leaseExpenses,cod_j);
+        cod_i = getSpreadFromDB(EBIT + EBIT_adj, Interest + interest_adj);
+      }
   }
 
   form.setValue('unamortizedAmount', parseFloat(unamortizedAmount.toFixed(2)), { shouldValidate: true, shouldDirty: true });
@@ -187,6 +191,8 @@ export const handleCalculateCostOfDebt = (form: FormType) => {
 
 
 export const handleCalculateLeaseAdjustments = (leaseExpenses: number[], pcod: number): [number, number] => {
+  
+  
   const yearsBeyond: number = Math.floor(leaseExpenses[leaseExpenses.length - 1] / (leaseExpenses.slice(1, -1).reduce((a, b) => a + b, 0) / (leaseExpenses.length - 2)));
   const cfList: number[] = leaseExpenses.slice(1, -1).concat(Array(yearsBeyond).fill(leaseExpenses[leaseExpenses.length - 1] / yearsBeyond));
   const sumPv: number = presentValueOfCashFlows(cfList, pcod);
@@ -213,7 +219,7 @@ export const getSpreadFromDB = (EBIT: number, interest: number): number => {
     const rfr: number = 4.11; // get from form
     const countrySpread: number = 1.1; // get from form
     
-    return rfr + countrySpread + companySpread;
+    return companySpread;
 }
 
 

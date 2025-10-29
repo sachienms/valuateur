@@ -1581,7 +1581,7 @@ function DcfValuationFormContent() {
                                             <FormLabel>COD (%)</FormLabel>
                                             <div className="flex items-center">
                                                 <FormControl><Input type="number" readOnly {...field} value={isNaN(field.value as number) ? '' : field.value ?? ''} /></FormControl>
-                                                    <Button type="button" variant="ghost" size="icon" onClick={() => handleCalculateCostOfDebt(form as any)}>
+                                                    <Button type="button" variant="ghost" size="icon" onClick={() => handleCalculateCostOfDebt(form as any,countrySpread)}>
                                                     <RotateCw className="h-4 w-4" />
                                                 </Button>
                                             </div>
