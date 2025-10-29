@@ -71,10 +71,13 @@ export const handleCalculateRandDAdjustments = (form: FormType) => {
   const fraction = 1 / historicalExpenses.length;
   const unamortizedAmount: number = parseFloat(rndExpenses.reduce((acc, val, i) => acc + (val * (1 - i * fraction)), 0).toFixed(2));
 
-
   form.setValue('adjustedEbit', parseFloat(adjustedEbit.toFixed(2)), { shouldValidate: true, shouldDirty: true });
   form.setValue('unamortizedAmount', parseFloat(unamortizedAmount.toFixed(2)), { shouldValidate: true, shouldDirty: true });
 };
+
+
+
+
 
 export const handleCalculateConvDebt = (form: FormType) => {
   // Placeholder logic

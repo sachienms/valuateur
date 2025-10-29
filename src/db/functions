@@ -1,4 +1,13 @@
-# Financials
+
+/*
+To do:
+1. remove console.log from handleCalculateRandDAdjustments()
+2.
+
+
+
+*/
+
 
 //Present value of CF
 
@@ -25,37 +34,6 @@ function updateCapRnd(): void {
     //console.log([EBIT_adj,unAmoamortized])
 }
 
-//actual
-export const handleCalculateRandDAdjustments = (form: FormType) => {
-  const rndExpenses = form.getValues('randdExpenses')
-    ?.map(e => e.expense || 0)
-    .filter(e => e > 0) || [];
-    
-  if (rndExpenses.length < 2) {
-    // Not enough data to calculate
-    form.setValue('adjustedEbit', form.getValues('ebitTTM') || 0);
-    form.setValue('unamortizedAmount', 0);
-    return;
-  }
-  
-  const originalEbit = form.getValues('ebitTTM') || 0;
-  const currentYearExpense = rndExpenses[0];
-  const historicalExpenses = rndExpenses.slice(1);
-  
-  const amortization = historicalExpenses.reduce((a, b) => a + b, 0) / historicalExpenses.length;
-  const adjustedEbit = originalEbit + currentYearExpense - amortization;
-
-  const fraction = 1 / historicalExpenses.length;
-  const unamortizedAmount = rndExpenses.reduce((acc, val, i) => {
-    // The current year's expense is fully unamortized for this calculation model
-    if (i === 0) return acc + val;
-    // For historical expenses, reduce value based on its age
-    return acc + (val * (1 - (i * fraction)));
-  }, 0);
-
-  form.setValue('adjustedEbit', parseFloat(adjustedEbit.toFixed(2)), { shouldValidate: true, shouldDirty: true });
-  form.setValue('unamortizedAmount', parseFloat(unamortizedAmount.toFixed(2)), { shouldValidate: true, shouldDirty: true });
-};
 
 //modified
 export const handleCalculateRandDAdjustments = (form: FormType) => {
@@ -92,7 +70,6 @@ export const handleCalculateRandDAdjustments = (form: FormType) => {
 function capitalizeLease(cod: number | null = null): [number, number] { // only modify the object value if no parameter is passed.
   const lease: number[] = [295,287, 235, 194, 151,98,605]; // from form
   const yearsBeyond: number = Math.floor(lease[lease.length - 1] / (lease.slice(1, -1).reduce((a, b) => a + b, 0) / (lease.length - 2)));
-  //const avg: number = (lease.slice(0, -1).reduce((a, b) => a + b, 0) / (lease.length - 1));
   let preCod: number;
   if (cod === null) {
     preCod = 5 / 100; // to be fetched from form
