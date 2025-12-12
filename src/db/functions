@@ -140,19 +140,15 @@ function ptcodRating(): void {
 
 
 //updated
-export const handleCalculateCostOfDebt = (form: FormType, countrySpread: Number) => {
-  const leaseExpenses = form.getValues('leaseExpenses')
-    ?.map(e => Number(e.expense) || 0)
-    .filter(e => e > 0) || [];
+export const handleCalculateCostOfDebt = (form: FormType) => {
+
+  const capitalizeLease = form.getValues('capitalizeLease');
   
-    /*
-  if (leaseExpenses.length < 2) {
-    // Not enough data to calculate
-    form.setValue('adjustedEbit', 0);
-    form.setValue('unamortizedAmount', 0);
-    return;
+  if(!capitalizeLease){
+    
   }
-  */
+    
+  
 
   const costOfDebtMethod = form.getValues('costOfDebtMethod');
   const riskFreeRate = Number(form.getValues('riskFreeRate'))/100;
