@@ -1,0 +1,745 @@
+Industry,Group
+Industry,Industry Group
+Semiconductors,Semiconductor
+Consumer Electronics,Electronics (Consumer & Office)
+Internet Content & Information,Computer Services
+Software - Infrastructure,Software (System & Application)
+Internet Retail,Retail (General)
+Auto Manufacturers,Auto Parts
+Semiconductors and Related Devices,Semiconductor
+Discount Stores,Retail (Grocery and Food)
+Banks - Diversified,Banks (Regional)
+Financial - Credit Services,Healthcare Support Services
+Prepackaged Software,Electronics (Consumer & Office)
+Oil & Gas Integrated,Oil/Gas (Integrated)
+Drug Manufacturers - General,Drugs (Pharmaceutical)
+Home Improvement Retail,Utility (Water)
+Household & Personal Products,Household Products
+Communication Equipment,Telecom. Equipment
+Beverages - Non-Alcoholic,Beverage (Alcoholic)
+Specialty Industrial Machinery,Industry Group
+Medical - Healthcare Plans,Healthcare Support Services
+Pharmaceutical Preparations,Drugs (Pharmaceutical)
+Information Technology Services,Computer Services
+Farm & Heavy Construction Machinery,Chemical (Diversified)
+Credit Services,Insurance (Life)
+Commercial Banks,Bank (Money Center)
+Software - Application,Software (System & Application)
+Aerospace & Defense,Aerospace/Defense
+Restaurants,Food Processing
+Electromedical and Electrotherapeutic Apparatus,Industry Group
+Finance services,Brokerage & Investment Banking
+Entertainment,Entertainment
+Telecom Services,Telecom. Services
+"Electronic and Other Electrical Equipment and Components, except Computer Equipment",Electronics (Consumer & Office)
+"Biological Products, Except Diagnostic Substances",Industry Group
+Other Industrial Metals & Mining,Industry Group
+"Computer Programming, Data Processing, And Other Computer Related Services",Computer Services
+Metal Mining,Metals & Mining
+Computer Processing and Data Preparation and Processing Services,Industry Group
+Eating Places,Food Processing
+Tobacco,Tobacco
+Gold,Industry Group
+Footwear & Accessories,Trucking
+Petroleum Refining,Oil/Gas Distribution
+Conglomerates,Healthcare Support Services
+"Specialty Cleaning, Polishing, and Sanitation Preparations",Industry Group
+Utilities - Regulated Electric,Coal & Related Energy
+"Electronic Components, not elsewhere classified",Utility (Water)
+Telecommunications Services,Telecom. Services
+"Perfumes, Cosmetics, and Other Toilet Preparations",Food Processing
+Insurance - Property & Casualty,Insurance (General)
+"Oil and Gas Field Services, not elsewhere classified",Industry Group
+Beverages - Wineries & Distilleries,Utility (Water)
+Beverages - Brewers,Beverage (Alcoholic)
+"Fire, Marine, and Casualty Insurance",Insurance (General)
+Motor Vehicles and Passenger Car Bodies,Chemical (Diversified)
+Catalog and Mail-Order Houses,Drugs (Biotechnology)
+Food Confectioners,Food Processing
+Paper Mills,Paper/Forest Products
+Radio and Television Broadcasting and Communications Equipment,Industry Group
+Bottled and Canned Soft Drinks and Carbonated Waters,Beverage (Soft)
+Banks - Regional,Banks (Regional)
+Computer And Office Equipment,Utility (Water)
+Guided Missiles And Space Vehicles And Parts,Industry Group
+Silver,Semiconductor
+Grain Mill Products,Industry Group
+Water Supply,Utility (Water)
+Agricultural Inputs,Industry Group
+"Cement, Hydraulic",Construction Supplies
+Gold And Silver Ores,Industry Group
+"Airports, Flying Fields, and Airport Terminal Services",Industry Group
+Steel,Steel
+Oil & Gas Exploration & Production,Oil/Gas (Production and Exploration)
+Natural Gas Transmission,Oil/Gas Distribution
+Utilities - Independent Power Producers,Coal & Related Energy
+"Petroleum and Petroleum Products Wholesalers, Except Bulk Stations and Terminals",Retail (Distributors)
+Aluminum,Precious Metals
+Capital Markets,Bank (Money Center)
+Building Materials,Building Materials
+Oil & Gas Midstream,Oil/Gas Distribution
+Real Estate Services,Real Estate (Operations & Services)
+Utilities - Regulated Gas,Industry Group
+Farm Products,Food Processing
+"Mining and Quarrying Of Nonmetallic Minerals, except Fuels",Metals & Mining
+Real Estate - Development,Real Estate (Development)
+Natural Gas Distribution,Oil/Gas (Production and Exploration)
+Department Stores,Retail (Grocery and Food)
+"Security and Commodity Brokers, Dealers, Exchanges, and Services",Utility (General)
+Packaged Foods,Food Processing
+"Land Subdividers and Developers, Except Cemeteries",Industry Group
+Infrastructure Operations,Investments & Asset Management
+Drug Manufacturers - Specialty & Generic,Industry Group
+Agricultural Chemicals,Chemical (Diversified)
+Paper & Paper Products,Paper/Forest Products
+Engineering & Construction,Engineering/Construction
+Chemicals,Chemical (Diversified)
+"Furnishings, Fixtures & Appliances",Investments & Asset Management
+Building Products & Equipment,Construction Supplies
+Radiotelephone Communications,Broadcasting
+Insurance - Diversified,Insurance (General)
+Healthcare Plans,Industry Group
+Cigarettes,Bank (Money Center)
+Aircraft Engines and Engine Parts,Air Transport
+Medical Devices,Computers/Peripherals
+Diagnostics & Research,Industry Group
+Semiconductor Equipment & Materials,Software (System & Application)
+"Special Industry Machinery, not elsewhere classified",Industry Group
+Electric Services,Utility (Water)
+Electronic Connectors,Industry Group
+Apparel Retail,Healthcare Support Services
+Transportation Services,Air Transport
+Asset Management,Investments & Asset Management
+Computer Communications Equipment,Green & Renewable Energy
+Optical Instruments and Lenses,Software (System & Application)
+Credit Reporting Services,Business & Consumer Services
+Surgical and Medical Instruments and Apparatus,Industry Group
+Railroads,Trucking
+Real Estate Investment Trusts,R.E.I.T.
+Lumber and Other Building Materials Dealers,Construction Supplies
+Farm Machinery and Equipment,Farming/Agriculture
+REIT - Industrial,Industry Group
+Investment Advice,Brokerage & Investment Banking
+General Medical and Surgical Hospitals,Industry Group
+Life Insurance,Insurance (Life)
+Copper,Industry Group
+Biotechnology,Drugs (Biotechnology)
+Miscellaneous Fabricated Metal Products,Utility (Water)
+Medical Distribution,Auto Parts
+Electric and Other Services Combined,Engineering/Construction
+Electronic Computers,Computer Services
+"Insurance Agents, Brokers, and Service",Insurance (General)
+Refuse Systems,Environmental & Waste Services
+Auto and Home Supply Stores,Utility (Water)
+"Paints, Varnishes, Lacquers, Enamels, and Allied Products",Industry Group
+Hotels and Motels,Hotel/Gaming
+Integrated Freight & Logistics,Investments & Asset Management
+"Search, Detection, Navigation, Guidance, Aeronautical, and Nautical Systems and Instruments",Broadcasting
+"Aircraft Parts and Auxiliary Equipment, Not Elsewhere Classified",Industry Group
+Specialty Chemicals,Chemical (Diversified)
+Financial Data & Stock Exchanges,Industry Group
+Personal Services,Household Products
+Hospital and Medical Service Plans,Insurance (General)
+Travel Services,Air Transport
+Confectioners,Food Processing
+"Hotels, Rooming Houses, Camps, and Other Lodging Places",Industry Group
+Electronic Components,Electronics (Consumer & Office)
+Engines And Turbines,Industry Group
+"Drugs, Drug Proprietaries, and Druggists' Sundries",Industry Group
+Electrical Work,Industry Group
+"Railroads, Line-Haul Operating",Industry Group
+Electronic Gaming & Multimedia,Software (Entertainment)
+Cable and Other Pay Television Services,Cable TV
+Crude Petroleum and Natural Gas,Oil/Gas (Production and Exploration)
+Natural Gas Transmission and Distribution,Oil/Gas (Production and Exploration)
+Utilities - Diversified,Chemical (Diversified)
+In Vitro and In Vivo Diagnostic Substances,Drugs (Pharmaceutical)
+Mortgage Bankers and Loan Correspondents,Environmental & Waste Services
+Computer Hardware,Computers/Peripherals
+Oil & Gas Refining & Marketing,Oil/Gas (Production and Exploration)
+Automotive Dealers and Gasoline Service Stations,Industry Group
+REIT - Retail,Industry Group
+Miscellaneous Equipment Rental And Leasing,Bank (Money Center)
+Operative Builders,Engineering/Construction
+Real Estate Agents and Managers,R.E.I.T.
+Wholesale Trade-Durable Goods,Retail (General)
+Resorts & Casinos,Industry Group
+Air-Conditioning and Warm Air Heating Equipment and Commercial and Industrial Refrigeration Equipment,Steel
+"Industrial Instruments for Measurement, Display, and Control of Process Variables; and Related Products",Machinery
+Electrical Industrial Apparatus,Industry Group
+Grocery Stores,Retail (Grocery and Food)
+Airlines,Industry Group
+"Ordnance And Accessories, Except Vehicles And Guided Missiles",Industry Group
+Insurance - Life,Insurance (Life)
+Motor Vehicles And Motor Vehicle Parts And Supplies,Industry Group
+Sugar And Confectionery Products,Food Processing
+Railroad Equipment,Telecom. Equipment
+Food Distribution,Food Processing
+Instruments for Measuring and Testing of Electricity and Electrical Signals,Insurance (Life)
+Personal Credit Institutions,Bank (Money Center)
+"Business Services, not elsewhere classified",Utility (Water)
+"Construction, Mining, And Materials Handling",Broadcasting
+Construction Special Trade Contractors,Engineering/Construction
+Residential Construction,Engineering/Construction
+"Soap, Detergents, And Cleaning Preparations; Perfumes, Cosmetics, and Other Toilet Preparations",Construction Supplies
+Consulting Services,Air Transport
+Amusement and Recreation Services,Utility (Water)
+"Trucking, except Local",Industry Group
+Laboratory Analytical Instruments,Utility (General)
+Services To Dwellings And Other Buildings,Homebuilding
+Telephone and Telegraph Apparatus,Real Estate (Development)
+"Security Brokers, Dealers, and Flotation Companies",Industry Group
+Solar,Tobacco
+Other Precious Metals & Mining,Industry Group
+"Retail Stores, Not Elsewhere Classified",Retail (Automotive)
+Motors and Generators,Coal & Related Energy
+Variety Stores,Retail (Grocery and Food)
+Oil & Gas Equipment & Services,Electronics (General)
+Computer Storage Devices,Computers/Peripherals
+Electric Lighting And Wiring Equipment,Industry Group
+Printed Circuit Boards,Electronics (Consumer & Office)
+Leather and Leather Products,Transportation
+Oil Royalty Traders,Utility (Water)
+"Fabricated Rubber Products, Not Elsewhere Classified",Utility (Water)
+Medical Laboratories,Metals & Mining
+Meat Packing Plants,Construction Supplies
+Packaging & Containers,Packaging & Container
+"Measuring and Controlling Devices, not elsewhere classified",Industry Group
+Advertising Agencies,Advertising
+Commercial Physical and Biological Research,Investments & Asset Management
+Motor Vehicle Supplies and New Parts,Industry Group
+Miscellaneous Food Preparations And Kindred Products,Industry Group
+"Communications Services, Not Elsewhere Classified",Utility (Water)
+Paperboard Containers And Boxes,Packaging & Container
+Mineral Royalty Traders,Industry Group
+X-Ray Apparatus and Tubes and Related Irradiation Apparatus,Industry Group
+"Engineering, Accounting, Research, Management, and Related Services",Engineering/Construction
+Specialty Retail,Industry Group
+Medical Instruments & Supplies,Computers/Peripherals
+Industrial Inorganic Chemicals,Chemical (Diversified)
+"Orthopedic, Prosthetic, and Surgical Appliances and Supplies",Industry Group
+Engineering Services,Engineering/Construction
+"Hardware, And Plumbing And Heating Equipment",Air Transport
+Aircraft,Air Transport
+"Computer Peripheral Equipment, not elsewhere classified",Utility (Water)
+Metalworking Machinery And Equipment,Utility (Water)
+Prefabricated Wood Buildings and Components,Construction Supplies
+"Games, Toys, and Children's Vehicles, Except Dolls and Bicycles",Industry Group
+Hospitals,Healthcare Support Services
+REIT - Mortgage,Industry Group
+Dental Equipment and Supplies,Coal & Related Energy
+Computer Integrated Systems Design,Computer Services
+Miscellaneous Metal Ores,Industry Group
+Patent Owners and Lessors,Industry Group
+Cogeneration Services and Small Power Producers,Industry Group
+"Telephone Communications, Except Radiotelephone",Industry Group
+Motor Vehicle Parts and Accessories,Auto Parts
+Miscellaneous Durable Goods,Utility (Water)
+Local and Suburban Transit and Interurban Highway Passenger Transportation,Environmental & Waste Services
+"Canned, Frozen, And Preserved Fruits, Vegetables, and Food Specialties",Industry Group
+Apparel and Other Finished Products Made From Fabrics and Similar Materials,Retail (Automotive)
+Educational Services,Industry Group
+"Miscellaneous Health And Allied Services, Not Elsewhere Classified",Utility (Water)
+"General Industrial Machinery and Equipment, Not Elsewhere",Telecom. Equipment
+"Miscellaneous Electrical Machinery, Equipment, and Supplies",Utility (Water)
+"Concrete, Gypsum, And Plaster Products",Building Materials
+Dolls and Stuffed Toys,Beverage (Soft)
+Ball and Roller Bearings,Industry Group
+Auto & Truck Dealerships,Auto & Truck
+Auto Parts,Auto Parts
+"Air Transportation, Nonscheduled",Air Transport
+REIT - Diversified,Industry Group
+Financial Conglomerates,Banks (Regional)
+Family Clothing Stores,Retail (Automotive)
+Rental & Leasing Services,Air Transport
+Industrial Organic Chemicals,Chemical (Diversified)
+Rubber and Plastics Footwear,Publishing & Newspapers
+Bituminous Coal And Lignite Mining,Coal & Related Energy
+Totalizing Fluid Meters and Counting Devices,Industry Group
+Recreational Vehicles,Auto & Truck
+Women's Clothing Stores,Tobacco
+REIT - Specialty,Industry Group
+"Motorcycles, Bicycles, and Parts",Industry Group
+Water Transportation,Transportation
+Employment Agencies,Oil/Gas (Integrated)
+Real Estate - Diversified,Auto Parts
+Bakery Products,Household Products
+Malt Beverages,Beverage (Soft)
+Advertising,Advertising
+Miscellaneous Amusement And Recreation,Construction Supplies
+Medical Care Facilities,Office Equipment & Services
+Insurance Brokers,Insurance (General)
+Computer Programming Services,Computer Services
+Motion Picture Theaters,Transportation
+Groceries And Related Products,Industry Group
+Food Stores,Retail (Grocery and Food)
+Public Warehousing And Storage,Trucking
+REIT - Hotel & Motel,Industry Group
+"Automotive Repair, Services, and Parking",Retail (Automotive)
+Lodging,Transportation
+"Building Materials, Hardware, Garden Supply, and Mobile Home Dealers",Electronics (General)
+Utilities - Regulated Water,Industry Group
+Electric Housewares and Fans,Electronics (General)
+REIT - Healthcare Facilities,Industry Group
+Waste Management,Environmental & Waste Services
+Specialty Business Services,Industry Group
+Industrial Distribution,Air Transport
+Ophthalmic Goods,Industry Group
+Scientific & Technical Instruments,Real Estate (Development)
+Electrical Equipment & Parts,Industry Group
+Trucking,Trucking
+Regulated Electric,Industry Group
+Utilities - Renewable,Advertising
+REIT - Residential,Homebuilding
+Luxury Goods,Household Products
+Apparel Manufacturing,Rubber& Tires
+Television Broadcasting Stations,Cable TV
+Gambling,Industry Group
+Leisure,Food Processing
+REIT - Office,Industry Group
+Tools & Accessories,Chemical (Diversified)
+Education & Training Services,Education
+Pharmaceutical Retailers,Insurance (Life)
+Oil & Gas Drilling,Oil/Gas (Production and Exploration)
+"Functions Related to Depository Banking, Not Elsewhere Classified",Industry Group
+Staffing & Employment Services,Office Equipment & Services
+Marine Shipping,Trucking
+Utilities-Regulated Electric,Coal & Related Energy
+Health Information Services,Telecom. Services
+"Air Transportation, Scheduled",Industry Group
+Lumber & Wood Production,Paper/Forest Products
+Insurance - Reinsurance,Insurance (Life)
+Other,Transportation
+Metal Fabrication,Construction Supplies
+Electronics & Computer Distribution,Electronics (Consumer & Office)
+"Unit Investment Trusts, Face-Amount Certificate Offices, and Closed-End Management Investment Offices",Brokerage & Investment Banking
+Textile Manufacturing,Engineering/Construction
+"Communications Equipment, not elsewhere classified",Utility (Water)
+-,Transportation
+Nonstore Retailers,Industry Group
+"Investors, not elsewhere classified",Shipbuilding & Marine
+Publishing,Computer Services
+Shell Companies,Chemical (Diversified)
+Pollution & Treatment Controls,Utility (Water)
+Uranium-Radium-Vanadium Ores,Precious Metals
+Gold Ores,Metals & Mining
+Uranium,Drugs (Biotechnology)
+Industrial Materials,Telecom. Equipment
+Storage Batteries,Auto & Truck
+Copper Ores,Metals & Mining
+"Miscellaneous Metal Ores, Not Elsewhere Classified",Utility (Water)
+Investment Offices,Investments & Asset Management
+Metal Mining Services,Metals & Mining
+Security & Protection Services,Household Products
+Automatic Controls for Regulating Residential and Commercial Environments and Appliances,Air Transport
+Non-operating Establishments,Real Estate (General/Diversified)
+Medicinal Chemicals and Botanical Products,Industry Group
+Food and Kindred Products,Utility (Water)
+Sanitary Services,Industry Group
+"Groceries and Related Products, not elsewhere classified",Utility (Water)
+Broadcasting,Broadcasting
+Insurance - Specialty,Industry Group
+Airports & Air Services,Tobacco
+Thermal Coal,Coal & Related Energy
+Coking Coal,Coal & Related Energy
+Other Precious Metals,Precious Metals
+Mortgage Finance,Real Estate (Development)
+Business Equipment & Supplies,Office Equipment & Services
+Agricultural Farm Products,Food Processing
+Oil & Gas,Oil/Gas (Production and Exploration)
+Information Technology,Computer Services
+Software - Services,Software (System & Application)
+Asset Management - Income,Industry Group
+Medical - Specialties,Drugs (Pharmaceutical)
+Household Appliances,Food Processing
+Miscellaneous General Merchandise Stores,Retail (General)
+"Hobby, Toy, and Game Shops",Industry Group
+"Mining Machinery and Equipment, Except Oil and Gas Field Machinery and Equipment",Metals & Mining
+Automobiles & Auto Parts,Auto Parts
+"Jewelry, Precious Metal",Precious Metals
+Insurance Carriers,Utility (General)
+Tobacco Products,Industry Group
+"Abrasive, Asbestos, And Miscellaneous Nonmetallic Mineral Products",Utility (Water)
+Industrial and Commercial Machinery and Computer Equipment,Education
+Miscellaneous Transportation Equipment,Utility (Water)
+"Books: Publishing, or Publishing and Printing",Insurance (General)
+Medical - Pharmaceuticals,Utility (Water)
+Financial - Diversified,Investments & Asset Management
+Miscellaneous Repair Services,Industry Group
+Agriculture Production Livestock and Animal Specialties,Industry Group
+"Short-Term Business Credit Institutions, Except Agricultural",Bank (Money Center)
+Miscellaneous Shopping Goods Stores,Entertainment
+Building Construction General Contractors and Operative Builders,Engineering/Construction
+Real Estate,Industry Group
+"Industrial Trucks, Tractors, Trailers, and Stackers",Engineering/Construction
+"Hardware, Equipment & Parts",Industry Group
+"Machinery, Equipment, And Supplies",Utility (Water)
+Motion Picture and Video Tape Production,Industry Group
+"Special Industry Machinery, Except Metalworking",Industry Group
+"Electronic Coils, Transformers, and Other Inductors",Building Materials
+"Industrial Organic Chemicals, not elsewhere classified",Industry Group
+Investment - Banking & Investment Services,Bank (Money Center)
+Silver Ores,Industry Group
+Lumber And Other Construction Materials,Retail (Building Supply)
+"Jewelry, Watches, Precious Stones, and Precious Metals",Utility (General)
+Personal Products & Services,Household Products
+"Ferroalloy Ores, except Vanadium",Industry Group
+"Trucking And Courier Services, Except Air",Industry Group
+Industrial Sand,Building Materials
+"Offices of Holding Companies, Not Elsewhere Classified",Industry Group
+Apparel and Accessory Stores,Insurance (General)
+Health Services,Retail (Building Supply)
+Oil & Gas Energy,Oil/Gas Distribution
+Financial - Capital Markets,Precious Metals
+Video Tape Rental,Utility (Water)
+Professional & Commercial Services,Education
+Oil and Gas Field Exploration Services,Industry Group
+Motor Vehicle Dealers (new And Used),Business & Consumer Services
+Miscellaneous Business Services,Utility (Water)
+"Measuring, Analyzing, and Controlling Instruments; Photographic, Medical and Optical Goods; Watches and Clocks",Insurance (Life)
+Chemicals and Allied Products,Industry Group
+"Savings Institutions, Federally Chartered",Software (Entertainment)
+Multi-Sector Holdings,Industry Group
+Offices of Bank Holding Companies,Industry Group
+Skilled Nursing Care Facilities,Real Estate (Operations & Services)
+Drilling Oil and Gas Wells,Oil/Gas Distribution
+Heavy Construction Other Than Building Construction Contractors,Engineering/Construction
+"Services Allied With the Exchange of Securities or Commodities, Not Elsewhere Classified",Utility (Water)
+State Commercial Banks,Bank (Money Center)
+Industrial - Machinery,Education
+Personal & Household Products & Services,Household Products
+Life Sciences Tools & Services,Drugs (Biotechnology)
+Furniture Stores,Retail (Grocery and Food)
+Help Supply Services,Retail (Building Supply)
+Apparel - Manufacturers,Auto Parts
+Operators of Nonresidential Buildings,Utility (Water)
+Truck and Bus Bodies,Auto & Truck
+Independent Power Producers,Coal & Related Energy
+Media & Entertainment,Entertainment
+Services Allied to Motion Picture Production,Industry Group
+Industrial - Specialties,Chemical (Diversified)
+Medical - Healthcare Information Services,Computer Services
+"Gambling, Resorts & Casinos",Hotel/Gaming
+Food & Tobacco,Chemical (Diversified)
+Operators of Apartment Buildings,Transportation (Railroads)
+Electronic Components And Accessories,Electronics (Consumer & Office)
+Miscellaneous Investing,Utility (General)
+Regulated Gas,Industry Group
+"Converted Paper And Paperboard Products, Except Containers And Boxes",Paper/Forest Products
+Real Estate Operators (except Developers) And Lessors,Industry Group
+Miscellaneous Manufacturing Industries,Utility (Water)
+Oil and Gas Extraction,Oil/Gas (Production and Exploration)
+Metals & Mining,Metals & Mining
+"Sporting and Athletic Goods, not elsewhere classified",Utility (Water)
+Coal Mining,Coal & Related Energy
+Construction Machinery and Equipment,Engineering/Construction
+Diversified Multi-Media,Broadcasting
+Switchgear and Switchboard Apparatus,Construction Supplies
+General Industrial Machinery And Equipment,Education
+Cookies and Crackers,Industry Group
+"Metal Doors, Sash, Frames, Molding, and Trim Manufacturing",Industry Group
+"Accounting, Auditing, and Bookkeeping Services",Business & Consumer Services
+Beverages,Beverage (Alcoholic)
+Pumps and Pumping Equipment,Utility (Water)
+Fats And Oils,Green & Renewable Energy
+General Building Contractors-nonresidential,Industry Group
+Aircraft And Parts,Air Transport
+"Steel Works, Blast Furnaces (Including Coke Ovens), and Rolling Mills",Coal & Related Energy
+Deep Sea Foreign Transportation of Freight,Utility (Water)
+Paperboard Mills,Industry Group
+Computers and Computer Peripheral Equipment and Software,Industry Group
+"Plastics Materials And Synthetic Resins, Synthetic Rubber, Cellulosic And Other Manmade Fibers, Except Glass",Industry Group
+"Plastics Materials, Synthetic Resins, and Nonvulcanizable Elastomers",Industry Group
+"Lumber and Wood Products, except Furniture",Industry Group
+"Radio, Television, and Consumer Electronics Stores",Electronics (Consumer & Office)
+"Newspapers: Publishing, or Publishing and Printing",Software (System & Application)
+Primary Smelting And Refining Of Nonferrous Metals,Precious Metals
+Metal Cans,Transportation
+Primary Production of Aluminum,Precious Metals
+Surety Insurance,Utility (General)
+General Building Contractors-residential,Engineering/Construction
+"Canned Fruits, Vegetables, Preserves, Jams, and Jellies",Industry Group
+Computer and Computer Software Stores,Computer Services
+Poultry Slaughtering and Processing,Utility (Water)
+"Detective, Guard, and Armored Car Services",Industry Group
+Chemicals And Allied Products,Industry Group
+"Steel Works, Blast Furnaces, And Rolling And Finishing Mills",Industry Group
+Industrial Machinery and Equipment,Education
+"Heating Equipment, Except Electric And Warm Air; And Plumbing Fixtures",Steel
+Carpets and Rugs,Beverage (Alcoholic)
+Refrigeration And Service Industry Machinery,Steel
+"Automotive Rental And Leasing, Without Drivers",Industry Group
+Arrangement of Transportation of Freight and Cargo,Air Transport
+Structural Clay Products,Chemical (Diversified)
+Industrial and Commercial Fans and Blowers and Air Purification Equipment,Utility (Water)
+Glass Containers,Packaging & Container
+"Gaskets, Packing, And Sealing Devices And Rubber And Plastics Hose And Belting",Utility (Water)
+Drug Stores and Proprietary Stores,Retail (Grocery and Food)
+Tires and Inner Tubes,Rubber& Tires
+"Glass And Glassware, Pressed Or Blown",Industry Group
+Oil and Gas Field Machinery and Equipment,Industry Group
+Professional Sports Clubs and Promoters,Entertainment
+Photographic Equipment and Supplies,Electronics (Consumer & Office)
+Ship And Boat Building And Repairing,Homebuilding
+"Furniture and Fixtures, not elsewhere classified",Utility (Water)
+Miscellaneous Retail,Utility (Water)
+Musical Instruments,Industry Group
+Management Consulting Services,Investments & Asset Management
+"Search, Detection, Navigation, Guidance, Aeronautical, and Nautical Systems, Instruments, and Equipment",Broadcasting
+Miscellaneous Industrial And Commercial Machinery And Equipment,Utility (Water)
+"Medical, Dental, and Hospital Equipment and Supplies",Machinery
+Textile Mill Products,Industry Group
+Construction & Engineering,Engineering/Construction
+REIT-Residential,R.E.I.T.
+"Lessors of Real Property, Not Elsewhere Classified",Industry Group
+"Management Investment Offices, Open-End",Industry Group
+"Recreational Goods, Other",Industry Group
+Property & Casualty Insurance,Insurance (General)
+Communication Services,Industry Group
+REIT-Hotel & Motel,Industry Group
+Electronics Wholesale,Retail (General)
+"Jewelry, Silverware, And Plated Ware",Industry Group
+Fabricated Plate Work (Boiler Shops),Industry Group
+Medical - Diagnostics & Research,Retail (Automotive)
+Medical Appliances & Equipment,Industry Group
+Semiconductor - Broad Line,Electronics (Consumer & Office)
+Diversified Machinery,Industry Group
+Banks,Metals & Mining
+Construction,Engineering/Construction
+Adhesives and Sealants,Construction Supplies
+Drawing and Insulating of Nonferrous Wire,Industry Group
+Regional - Midwest Banks,Utility (Water)
+Testing Laboratories,Telecom. Services
+Steel Pipe and Tubes,Industry Group
+Industrial - Capital Goods,Household Products
+"Footwear, Except Rubber",Industry Group
+Jewelry Stores,Industry Group
+Distilled and Blended Liquors,Beverage (Alcoholic)
+Public Building and Related Furniture,Industry Group
+"Women's, Misses', And Juniors' Outerwear",Industry Group
+"Power, Distribution, and Specialty Transformers",Coal & Related Energy
+Telephone Communications,Office Equipment & Services
+Air Courier Services,Utility (General)
+Accident and Health Insurance,Insurance (General)
+Convenience Stores,Retail (Grocery and Food)
+Agricultural Production Crops,Food Processing
+"Rolling, Drawing, And Extruding Of Nonferrous Metals",Industry Group
+Amusement Parks,Chemical (Basic)
+Finance Lessors,Industry Group
+Miscellaneous Chemical Products,Computer Services
+Legal Services,Industry Group
+"Glass Products, Made of Purchased Glass",Industry Group
+"Equipment Rental and Leasing, not elsewhere classified",Industry Group
+"Pipelines, Except Natural Gas",Oil/Gas (Production and Exploration)
+"Wines, Brandy, and Brandy Spirits",Beverage (Alcoholic)
+Travel Lodging,Food Processing
+Gas and Other Services Combined,Coal & Related Energy
+Household Furniture,Retail (Grocery and Food)
+"Cutlery, Handtools, And General Hardware",Industry Group
+"Water, Sewer, Pipeline, and Communications and Power Line Construction",Industry Group
+Miscellaneous Plastics Products,Industry Group
+Title Insurance,Utility (Water)
+Fabricated Structural Metal Products,Construction Supplies
+Metals Service Centers and Offices,Industry Group
+Phonograph Records and Prerecorded Audio Tapes and Disks,Industry Group
+Asphalt Paving And Roofing Materials,Industry Group
+"Electrical Apparatus and Equipment Wiring Supplies, and Construction Materials",Semiconductor
+Hazardous Waste Management,Environmental & Waste Services
+Construction and Mining (Except Petroleum) Machinery and Equipment,Banks (Regional)
+Miscellaneous business Credit Institutions,Chemical (Diversified)
+Paper and Allied Products,Paper/Forest Products
+Dairy Products,Food Processing
+"Watches, Clocks, Clockwork Operated Devices, and Parts",Utility (General)
+"Electronic Parts and Equipment, not elsewhere classified",Industry Group
+"Paper, Lumber & Forest Products",Paper/Forest Products
+Paper And Paper Products,Paper/Forest Products
+Membership Sports and Recreation Clubs,Industry Group
+Commercial Printing,Industry Group
+Pottery And Related Products,Industry Group
+"Fishing, Hunting, and Trapping",Utility (Water)
+"Plastics Products, not elsewhere classified",Industry Group
+Radio Broadcasting Stations,Broadcasting
+Flat Glass,Retail (Automotive)
+"Savings Institutions, Not Federally Chartered",Software (Entertainment)
+Miscellaneous Primary Metal Products,Utility (Water)
+Unsupported Plastics Film and Sheet,Industry Group
+Computer Rental and Leasing,Air Transport
+"Metal Shipping Barrels, Drums, Kegs, and Pails",Industry Group
+Shoe Stores,Retail (Grocery and Food)
+Home Health Care Services,Retail (Building Supply)
+Child Day Care Services,Retail (Building Supply)
+Household Audio and Video Equipment,Software (Entertainment)
+"Sawmills and Planing Mills, General",Industry Group
+Motor Homes,Auto & Truck
+Miscellaneous Products Of Petroleum And Coal,Oil/Gas (Integrated)
+"Plastics, Foil, and Coated Paper Bags",Industry Group
+Professional And Commercial Equipment And Supplies,Air Transport
+Management Services,Investments & Asset Management
+"Apparel, Piece Goods, And Notions",Engineering/Construction
+"Metals And Minerals, Except Petroleum",Industry Group
+Sausages and Other Prepared Meat Products,Computer Services
+"Office Machines, not elsewhere classified",Machinery
+Petroleum Bulk Stations and Terminals,Industry Group
+Real Estate Dealers,R.E.I.T.
+"Coating, Engraving, And Allied Services",Telecom. Equipment
+"Printing, Publishing, and Allied Industries",Aerospace/Defense
+"Home Furniture, Furnishings, and Equipment Stores",Telecom. Equipment
+"Electrical Appliances, Television and Radio Sets",Electronics (Consumer & Office)
+Prepared Fresh or Frozen Fish and Seafoods,Industry Group
+"Lumber, Plywood, Millwork, and Wood Panels",Building Materials
+Facilities Support Management Services,Engineering/Construction
+"Bolts, Nuts, Screws, Rivets, and Washers",Industry Group
+Nonferrous Foundries (castings),Industry Group
+Nursing And Personal Care Facilities,Real Estate (Operations & Services)
+"Consumer Credit Reporting Agencies, Mercantile",Advertising
+"Machine Tools, Metal Cutting Types",Construction Supplies
+"Groceries, General Line",Utility (Water)
+"Pens, Pencils, And Other Artists Materials",Computers/Peripherals
+Secondary Smelting and Refining of Nonferrous Metals,Precious Metals
+Eating And Drinking Places,Real Estate (Operations & Services)
+"Periodicals: Publishing, or Publishing and Printing",Insurance (General)
+"Office Furniture, except Wood",Industry Group
+Farm-product Raw Materials,Industry Group
+Loan Brokers,Industry Group
+Sheet Metal Work,Construction Supplies
+Social Services,Electronics (Consumer & Office)
+"Insurance Carriers, not elsewhere classified",Industry Group
+Coal,Drugs (Pharmaceutical)
+Hardware,Industry Group
+"Women's, Misses', Children's, And Infants' Undergarments",Industry Group
+"Mailing, Reproduction, Commercial Art And Photography, and Stenographic Services",Industry Group
+"Calculating and Accounting Machines, Except Electronic Computers",Industry Group
+Metal Forgings And Stampings,Machinery
+Pulp Mills,Chemical (Diversified)
+"Broadwoven Fabric Mills, Manmade Fiber and Silk",Industry Group
+"Broadwoven Fabric Mills, Cotton",Utility (Water)
+Business Development Company,Investments & Asset Management
+Federal and Federally-Sponsored Credit Agencies,Industry Group
+Agricultural Services,Telecom. Services
+Miscellaneous Fabricated Textile Products,Utility (Water)
+Office Furniture,Retail (Grocery and Food)
+Printing Trades Machinery and Equipment,Entertainment
+Motion Picture and Video Tape Distribution,Software (Entertainment)
+"Blankbooks, Looseleaf Binders, And Bookbinding",Industry Group
+"Millwork, Veneer, Plywood, And Structural Wood Members",Industry Group
+Miscellaneous Non-durable Goods,Utility (Water)
+Miscellaneous Services,Utility (Water)
+Photofinishing Laboratories,Telecom (Wireless)
+Transportation Equipment,Trucking
+Plastics Foam Products,Industry Group
+"Partitions, Shelving, Lockers, And Office And Store Fixtures",Industry Group
+Offices and Clinics of Doctors of Medicine,Office Equipment & Services
+"Heating Equipment, Except Electric and Warm Air Furnaces",Industry Group
+Laboratory Apparatus and Furniture,Steel
+"Men's And Boys' Furnishings, Work Clothing, And Allied Garments",Industry Group
+Truck Trailers,Auto & Truck
+Computer Terminals,Computers/Peripherals
+Bituminous Coal and Lignite Surface Mining,Coal & Related Energy
+Manufacturing - Miscellaneous,Chemical (Diversified)
+"Specialty Outpatient Facilities, Not Elsewhere Classified",Industry Group
+Lawn and Garden Tractors and Home Lawn and Garden Equipment,Retail (Building Supply)
+Miscellaneous Publishing,Aerospace/Defense
+Knitting Mills,Business & Consumer Services
+Cut Stone and Stone Products,Industry Group
+"Wood Household Furniture, Except Upholstered",Industry Group
+Direct Mail Advertising Services,Advertising
+"Chemical and Fertilizer Mineral Mining, Not Elsewhere Classified",Precious Metals
+Services Allied to Motion Picture Distribution,Chemical (Diversified)
+Industrial Process Furnaces and Ovens,Construction Supplies
+"Computer Related Services, not elsewhere classified",Air Transport
+Food & Drug Retailing,Industry Group
+Farm & Construction Machinery,Engineering/Construction
+Food - Major Diversified,Industry Group
+Medical - Equipment & Services,Telecom. Equipment
+General Utilities,Transportation
+General Transportation,Trucking
+Real Estate - General,R.E.I.T.
+"Durable Goods, not elsewhere classified",Utility (Water)
+Machinery,Machinery
+Industrial - Infrastructure Operations,Real Estate (Development)
+Agricultural - Machinery,Farming/Agriculture
+Oil & Gas Related Equipment and Services,Electronics (General)
+Beverages - Alcoholic,Auto Parts
+Electronic Equipment,Industry Group
+"Machinery, Tools, Heavy Vehicles, Trains & Ships",Electronics (Consumer & Office)
+Auto - Recreational Vehicles,Auto & Truck
+Manufacturing - Tools & Accessories,Chemical (Diversified)
+Manufacturing - Metal Fabrication,Construction Supplies
+Real Estate Operations,R.E.I.T.
+Healthcare Providers & Services,Healthcare Support Services
+"Electric, Gas, and Sanitary Services",Coal & Related Energy
+Regulated Water,Utility (Water)
+Insurance-Reinsurance,Insurance (Life)
+Industrial - Pollution & Treatment Controls,Utility (Water)
+Water & Related Utilities,Utility (Water)
+Media & Publishing,Computer Services
+Leisure Products,Software (Entertainment)
+Investment Banking & Investment Services,Bank (Money Center)
+Specialty Retailers,Industry Group
+Freight & Logistics Services,Oil/Gas (Integrated)
+Homebuilding & Construction Supplies,Green & Renewable Energy
+"Electronic Equipment, Instruments & Components",Electronics (Consumer & Office)
+Biotechnology & Medical Research,Bank (Money Center)
+Banking Services,Brokerage & Investment Banking
+Equity Real Estate Investment Trusts (REITs),R.E.I.T.
+Hotels & Entertainment Services,Hotel/Gaming
+Insurance,Investments & Asset Management
+Electrical Utilities & IPPs,Industry Group
+Paper & Forest Products,Building Materials
+Renewable Energy,Green & Renewable Energy
+Household Goods,Household Products
+Pharmaceuticals,Drugs (Pharmaceutical)
+"Computers, Phones & Household Electronics",Industry Group
+Textiles & Apparel,Banks (Regional)
+Passenger Transportation Services,Air Transport
+"Hotels, Restaurants & Leisure",Construction Supplies
+Consumer Finance,Insurance (General)
+REIT-Office,Industry Group
+Financial - Mortgages,Real Estate (Operations & Services)
+Technology Distributors,Oil/Gas (Integrated)
+Home Improvement,Homebuilding
+Environmental Services,Industry Group
+Auto - Dealerships,Retail (General)
+Asset Management - Bonds,Investments & Asset Management
+Residential & Commercial REITs,Industry Group
+Real Estate Management & Development,Real Estate (Development)
+Iron And Steel Foundries,Environmental & Waste Services
+Telephone Interconnect Systems,Utility (Water)
+Ice Cream and Frozen Desserts,Beverage (Soft)
+Prefabricated Metal Buildings and Components,Construction Supplies
+"Costume Jewelry, Costume Novelties, Buttons, And Miscellaneous Notions, Except Precious Metal",Industry Group
+Book Printing,Telecom. Services
+"Food Preparations, not elsewhere classified",Industry Group
+"Beer, Wine, And Distilled Alcoholic Beverages",Food Processing
+"Industrial Inorganic Chemicals, not elsewhere classified",Chemical (Diversified)
+Forestry,Paper/Forest Products
+Farm Supplies,Bank (Money Center)
+"Concrete Products, Except Block and Brick",Building Materials
+Flour and Other Grain Mill Products,Food Processing
+"Footwear, except Rubber, not elsewhere classified",Rubber& Tires
+"Mechanical Power Transmission Equipment, Not Elsewhere Classified",Utility (General)
+"Surgical, Medical, And Dental Instruments And Supplies",Metals & Mining
+Non-Depository Credit Institutions,Bank (Money Center)
+Furniture And Home Furnishings,Retail (Grocery and Food)
+Division F: Wholesale Trade,Retail (Grocery and Food)
+"Cutting Tools, Machine Tool Accessories, and Machinists' Precision Measuring Devices",Machinery
+Motor Freight Transportation and Warehousing,Transportation
+Land Subdividers And Developers,Real Estate (Development)
+"Shortening, Table Oils, Margarine, and Other Edible Fats and Oils, Not Elsewhere Classified",Industry Group
+"Chemicals and Chemical Preparations, Not Elsewhere Classified",Industry Group
+Candy and Other Confectionery Products,Food Processing
+Wholesale Trade-Non-Durable Goods,Utility (Water)
+Scrap and Waste Materials,Construction Supplies
+Plastics Bottles,Oil/Gas (Integrated)
+Industrial Gases,Construction Supplies
+Screw Machine Products,Construction Supplies
+Primary Metal Industries,Metals & Mining
+Industrial Supplies,Business & Consumer Services
+Manifold Business Forms,Transportation
+Agricultural - Commodities/Milling,Precious Metals
+Scientific & Technical Instrument,Utility (Water)
+Manufacturing - Textiles,Engineering/Construction
+Miscellaneous Furniture And Fixtures,Utility (Water)
+"Business Consulting Services, Not Elsewhere Classified",Utility (Water)
+Asset Management - Cryptocurrency,Banks (Regional)
+Commodity Contracts Brokers and Dealers,Industry Group
